@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hostile
   - Ground
+  - Ladder
   layers:
   - Default
   - TransparentFX

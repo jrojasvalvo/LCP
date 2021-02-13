@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
         {
             if (climb)
             {
@@ -67,17 +67,22 @@ public class PlayerController : MonoBehaviour
     //Check if Grounded
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Ground") grounded = true;
+        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") grounded = true;
+        if (col.gameObject.tag == "Ladder") rb.velocity = new Vector2(rb.velocity.x,0);
     }
     void OnTriggerExit2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Ground") grounded = false;
+    {   
+        
+        //if (col.gameObject.tag == "Ground") grounded = false;
         //replace with object(s) name
         if (col.gameObject.tag == "Ladder")
         {
+            grounded = false;
             climb = false;
             rb.gravityScale = 1.0f;
-            rb.velocity = new Vector2(rb.velocity.x,0);
+        }
+        if(col.gameObject.tag == "Ground" || col.gameObject.tag == "Hostile") {
+            grounded = false;
         }
     }
 
@@ -90,6 +95,7 @@ public class PlayerController : MonoBehaviour
         {
             climb = true;
             rb.gravityScale = 0.0f;
+            fastFall = 0f;
         }
     }
 }
