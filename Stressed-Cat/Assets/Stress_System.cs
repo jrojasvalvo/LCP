@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Stress_System : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class Stress_System : MonoBehaviour
     public bool meditating = false;
 
     public GameObject enemies;
-    public GameObject stress_bar;
+    public Image stress_bar;
+    public GameObject camera;
 
     private Transform[] all_enemies;
     public float distance_from_hostile = 5f;
@@ -20,32 +22,38 @@ public class Stress_System : MonoBehaviour
 
     private float meditation_start;
     public int meditation_time = 5;
-    private bool canMeditate = true;
-
+    public bool canMeditate = true;
+    public float enemy_stress_rate;
     public bool inWater = false;
     public float water_stress_amt = 0.1f;
     public float timeSlowRate = 0.05f;
+    bool slowDown = false;
+    bool canShake = true;
+
+    public Image meditationBar;
 
     private AudioSource catStartledSound;
 
     void Start()
     {
+        meditationBar.fillAmount = 0;
         startled = false;
         all_enemies = enemies.GetComponentsInChildren<Transform>();
+        stress_bar.fillAmount = 1;
     }
 
     // Update is called once per frame
     void Update()
     {   
-        stress_bar.transform.localScale = new Vector3((1f - (stress_level / max_stress)), 
-                                                       stress_bar.transform.localScale.y,
-                                                       stress_bar.transform.localScale.z);
+        stress_bar.fillAmount = 1 - stress_level / max_stress;
+        stress_bar.color = new Color32((byte)(stress_level),
+                                       (byte)(100 - stress_level),0,100);
 
         if(Input.GetKey(KeyCode.E) && canMeditate) {
             canMeditate = false;
             meditating = true;
             meditation_start = Time.time;
-            gameObject.GetComponent<PlayerController>().enabled = false;
+            gameObject.GetComponent<PlayerController>().canMove = false;
         }
         float player_x = transform.position.x;
         float player_y = transform.position.y;
@@ -58,16 +66,23 @@ public class Stress_System : MonoBehaviour
         float dist;
 
         if(stress_level >= max_stress) {
-            startled = true;
+            //startled = true;
+            //Need this so the screen doesn't constantly shake
+            if (canShake) {
+                camera.GetComponent<ScreenShake>().shake();
+                canShake = false;
+            }
+            
         }
         if(meditating) {
-            print(Time.time);
+            meditationBar.fillAmount = (Time.time - meditation_start) / meditation_time;
             gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, gameObject.GetComponent<Rigidbody2D>().velocity.y);
             if(Time.time - meditation_time >= meditation_start) {
                 meditating = false;
                 canMeditate = true;
                 stress_level = 0f;
-                gameObject.GetComponent<PlayerController>().enabled = true;
+                gameObject.GetComponent<PlayerController>().canMove = true;
+                meditationBar.GetComponent<Image>().fillAmount = 0;
             }
         }
         //Check for proximity to enemies to increase stress level:
@@ -78,12 +93,19 @@ public class Stress_System : MonoBehaviour
             y_diff = Math.Abs(player_y - enemy_y);
             dist = (float)(Math.Sqrt(x_diff * x_diff + y_diff * y_diff));
             if(dist <= distance_from_hostile) {
-                stress_level += (distance_from_hostile - dist) / 100f;
+                stress_level += (distance_from_hostile - dist) * enemy_stress_rate;
             }
         }
 
         if (inWater) {
             stress_level += water_stress_amt;
+        }
+        if (slowDown) {
+            if (Time.timeScale - timeSlowRate < 0) {
+                Time.timeScale = 0;
+            } else {
+                Time.timeScale -= timeSlowRate;
+            }
         }
     }
 
@@ -100,10 +122,7 @@ public class Stress_System : MonoBehaviour
         }
         if (collider.tag == "End" && Time.timeScale > 0) {
             collider.gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            Time.timeScale -= timeSlowRate;
-            if (Time.timeScale < 0) {
-                Time.timeScale = 0;
-            }
+            slowDown = true;
         }
     }
 

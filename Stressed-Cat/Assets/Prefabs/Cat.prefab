@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 7741296320950728948}
   - component: {fileID: 7741296320950728944}
   - component: {fileID: 7741296320950728947}
+  - component: {fileID: 6785961290884396584}
   m_Layer: 0
   m_Name: Cat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,12 +139,14 @@ MonoBehaviour:
   stress_level: 0
   meditating: 0
   enemies: {fileID: 0}
-  donuts: {fileID: 0}
   stress_bar: {fileID: 0}
   distance_from_hostile: 5
   donut_stress_amt: 20
   donut_pickup_distance: 0.6
   meditation_time: 10
+  inWater: 0
+  water_stress_amt: 0.1
+  timeSlowRate: 0.05
 --- !u!114 &7741296320950728947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,3 +161,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   jump: 5
+  fastFallSpeed: 0
+--- !u!95 &6785961290884396584
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7741296320950728949}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
