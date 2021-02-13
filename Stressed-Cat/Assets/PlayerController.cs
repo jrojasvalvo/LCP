@@ -69,23 +69,23 @@ public class PlayerController : MonoBehaviour
 
             moveVelocity = 0;
 
-        //Left Right Movement
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
-            moveVelocity = -speed;
-            if (facingRight)
+            //Left Right Movement
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
-                reverseImage();
+                moveVelocity = -speed;
+                if (facingRight)
+                {
+                    reverseImage();
+                }
             }
-        }
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            moveVelocity = speed;
-            if (!facingRight)
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             {
-                reverseImage();
+                moveVelocity = speed;
+                if (!facingRight)
+                {
+                    reverseImage();
+                }
             }
-        }
 
             rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
         }

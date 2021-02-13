@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7741296320950728944}
   - component: {fileID: 7741296320950728947}
   - component: {fileID: 6785961290884396584}
+  - component: {fileID: 1564399333}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Player
@@ -74,8 +75,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 69b4a31dd81973843b3293846ad19e57, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 9199513373696618531, guid: 6eb1de41682094449b0f47ec46529cc1,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +103,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 2.9699206
 --- !u!50 &7741296320950728948
 Rigidbody2D:
   serializedVersion: 4
@@ -117,7 +119,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -144,9 +146,12 @@ MonoBehaviour:
   donut_stress_amt: 20
   donut_pickup_distance: 0.6
   meditation_time: 10
+  canMeditate: 1
+  enemy_stress_rate: 0.01
   inWater: 0
   water_stress_amt: 0.1
-  timeSlowRate: 0.05
+  timeSlowRate: 0.002
+  meditationBar: {fileID: 0}
 --- !u!114 &7741296320950728947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,9 +164,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72b970681b2200c4b8fc26db9b279d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
   speed: 4
-  jump: 5
-  fastFallSpeed: 0
+  jump: 6
+  fastFallSpeed: 0.2
+  canMove: 1
+  initial_x: -8
+  initial_y: -3.5
+  dead: 0
 --- !u!95 &6785961290884396584
 Animator:
   serializedVersion: 3
@@ -172,7 +182,7 @@ Animator:
   m_GameObject: {fileID: 7741296320950728949}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7270c01ffe6dc6841bf14b2598b0d3e4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -181,3 +191,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1564399333
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7741296320950728949}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.1833334, y: 7.0524025}
+    newSize: {x: 8, y: 8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 6.5}
+  m_EdgeRadius: 0
