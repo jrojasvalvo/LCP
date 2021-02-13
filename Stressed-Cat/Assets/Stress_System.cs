@@ -55,8 +55,8 @@ public class Stress_System : MonoBehaviour
         float enemy_y;
         
         //Donut Proximity Variables:
-        float donut_x;
-        float donut_y;
+        // float donut_x;
+        // float donut_y;
 
         float x_diff;
         float y_diff;
@@ -87,7 +87,7 @@ public class Stress_System : MonoBehaviour
             }
         }
         //Check if the player is close enough to any donuts to collect them:
-        for(int i = 0; i < all_donuts.Length; i++) {
+        /*for(int i = 0; i < all_donuts.Length; i++) {
             donut_x = all_donuts[i].position.x;
             donut_y = all_donuts[i].position.y;
             x_diff = Math.Abs(player_x - donut_x);
@@ -101,7 +101,7 @@ public class Stress_System : MonoBehaviour
                     stress_level = 0;
                 }
             }
-        }
+        }*/
 
         if (inWater) {
             stress_level += water_stress_amt;
@@ -111,6 +111,13 @@ public class Stress_System : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider) {
         if (collider.tag == "Water") {
             inWater = true;
+        }
+        if (collider.tag == "Donut") {
+            collider.gameObject.SetActive(false);
+            stress_level -= donut_stress_amt;
+            if(stress_level <= 0) {
+                stress_level = 0;
+            }
         }
     }
 
