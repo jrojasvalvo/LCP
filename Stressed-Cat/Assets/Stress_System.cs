@@ -26,7 +26,7 @@ public class Stress_System : MonoBehaviour
     public float enemy_stress_rate;
     public bool inWater = false;
     public float water_stress_amt = 0.1f;
-    public float timeSlowRate = 0.05f;
+    public float timeSlowRate = 0.001f;
     bool slowDown = false;
     
 

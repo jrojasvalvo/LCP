@@ -1114,11 +1114,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5090806840737998853, guid: d0e7768eb60df0a4cb89ef280c99667b,
+        type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: 7aa799586aba4b544945db8d0b6d30e8,
+        type: 2}
     - target: {fileID: 5090806840737998854, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: m_ShapeTexture
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2800000, guid: ba0394959dfab5a4798cc35253364ae6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0e7768eb60df0a4cb89ef280c99667b, type: 3}
 --- !u!1001 &7182553128179460655
@@ -1307,6 +1313,11 @@ PrefabInstance:
       propertyPath: stress_bar
       value: 
       objectReference: {fileID: 326097363}
+    - target: {fileID: 7741296320950728944, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: timeSlowRate
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728944, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: meditationBar
