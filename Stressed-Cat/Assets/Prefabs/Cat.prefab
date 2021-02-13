@@ -75,12 +75,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 69b4a31dd81973843b3293846ad19e57, type: 3}
+  m_Sprite: {fileID: 2587706737540376869, guid: 6b33cfa12545df3428539bd5335f2cf3,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 8, y: 8}
+  m_Size: {x: 6.201628, y: 7.066666}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -144,9 +145,12 @@ MonoBehaviour:
   donut_stress_amt: 20
   donut_pickup_distance: 0.6
   meditation_time: 10
+  canMeditate: 1
+  enemy_stress_rate: 0
   inWater: 0
   water_stress_amt: 0.1
   timeSlowRate: 0.05
+  meditationBar: {fileID: 0}
 --- !u!114 &7741296320950728947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,9 +163,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72b970681b2200c4b8fc26db9b279d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
   speed: 4
   jump: 5
   fastFallSpeed: 0
+  canMove: 1
+  initial_x: -8
+  initial_y: -3.5
+  dead: 0
 --- !u!95 &6785961290884396584
 Animator:
   serializedVersion: 3
