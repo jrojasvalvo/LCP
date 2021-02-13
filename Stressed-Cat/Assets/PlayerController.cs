@@ -149,6 +149,7 @@ public class PlayerController : MonoBehaviour
         }
         if (col.gameObject.tag == "Sight") {
             dead = true;
+            stress.PlayBark();
         }
     }
     void OnTriggerExit2D(Collider2D col)

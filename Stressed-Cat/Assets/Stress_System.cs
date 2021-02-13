@@ -37,6 +37,7 @@ public class Stress_System : MonoBehaviour
     private AudioSource meditationSound;
     private AudioSource catJump;
     private AudioSource catClimb;
+    private AudioSource dogBark;
 
     void Start()
     {
@@ -51,6 +52,8 @@ public class Stress_System : MonoBehaviour
         meditationSound = sound[2];
         catJump = sound[3];
         catClimb = sound[4];
+        dogBark = sound[5];
+
     }
 
     // Update is called once per frame
@@ -82,7 +85,8 @@ public class Stress_System : MonoBehaviour
             //startled = true;
             //Need this so the screen doesn't constantly shake
             gameObject.GetComponent<PlayerController>().dead = true;
-
+            catScaredSound.Stop();
+            catScaredSound.Play();
 
         }
         if(meditating) {
@@ -164,5 +168,13 @@ public class Stress_System : MonoBehaviour
     public void StopClimb()
     {
         catClimb.Stop();
+    }
+
+    public void PlayBark()
+    {
+        dogBark.Stop();
+        dogBark.Play();
+        catScaredSound.Stop();
+        catScaredSound.Play();
     }
 }
