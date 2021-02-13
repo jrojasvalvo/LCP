@@ -93,6 +93,10 @@ public class PlayerController : MonoBehaviour
             climb = false;
             this.gameObject.GetComponent<Stress_System>().stress_level = 0;
             dead = false;
+            canMove = true;
+            this.gameObject.GetComponent<Stress_System>().meditating = false;
+            this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
+            this.gameObject.GetComponent<Stress_System>().canMeditate = true;
         }
     }
 
