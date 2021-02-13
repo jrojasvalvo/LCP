@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     bool grounded = true;
     float fastFall = 0f;
     public float fastFallSpeed;
+    bool canJump = true;
     
 
     
@@ -27,15 +28,20 @@ public class PlayerController : MonoBehaviour
         //Jumping
         if (Input.GetButton("Jump"))
         {
-            if (grounded)
+            if (grounded && canJump)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jump);
                 fastFall = 0f;
             }
+            canJump = false;
         } else {
             if (!grounded){
                 fastFall = fastFallSpeed;
             }
+        }
+
+        if (Input.GetButtonUp("Jump")) {
+            canJump = true;
         }
 
         moveVelocity = 0;
