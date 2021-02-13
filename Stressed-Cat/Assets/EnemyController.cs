@@ -51,17 +51,19 @@ public class EnemyController : MonoBehaviour
         Vector2 forward = new Vector2(direction, 0);
         Vector2 v = player_pos - (Vector2)transform.position;
         //once stealth implemented add condition !Player.stealthed
-        if (Mathf.Abs(Vector2.Angle(forward, v)) < angle && Vector2.Distance(player_pos, (Vector2)transform.position) < radius)
+        /*if (Mathf.Abs(Vector2.Angle(forward, v)) < angle && Vector2.Distance(player_pos, (Vector2)transform.position) < radius)
         {
+            Player.GetComponent<PlayerController>().dead = true;
             Debug.Log("uwu hello there");
-        }
+        }*/
+        
     }
 
     void reverseImage()
     {
         facingRight = !facingRight;
-        Vector2 scale = rb.transform.localScale;
+        Vector2 scale = transform.localScale;
         scale.x *= -1;
-        rb.transform.localScale = scale;
+        transform.localScale = scale;
     }
 }
