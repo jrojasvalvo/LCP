@@ -68,7 +68,10 @@ public class PlayerController : MonoBehaviour
     //Check if Grounded
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") grounded = true;
+        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") {
+            grounded = true;
+            rb.velocity = new Vector2(rb.velocity.x,0);
+        }
         if (col.gameObject.tag == "Ladder") rb.velocity = new Vector2(rb.velocity.x,0);
     }
     void OnTriggerExit2D(Collider2D col)
