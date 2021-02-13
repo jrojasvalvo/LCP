@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     float fastFall = 0f;
     public float fastFallSpeed;
     private bool climb;
+    public bool canMove = true;
+
     
 
     
@@ -26,52 +28,51 @@ public class PlayerController : MonoBehaviour
 
 
     void Update()
-    {
-        //Jumping and Climbing
-        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
-        {
-            if (grounded)
+    {   
+        if (canMove) {
+            //Jumping and Climbing
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
             {
-                rb.velocity = new Vector2(rb.velocity.x, jump);
-                fastFall = 0f;
+                if (grounded)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, jump);
+                    fastFall = 0f;
+                }
+            } else {
+                if (!grounded){
+                    fastFall = fastFallSpeed;
+                }
             }
-        } else {
-            if (!grounded){
-                fastFall = fastFallSpeed;
-            }
-        }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
-        {
-            if (climb)
+            if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             {
-                rb.velocity = new Vector2(rb.velocity.x, -jump);
+                if (climb)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, -jump);
+                }
             }
-        }
 
-        moveVelocity = 0;
+            moveVelocity = 0;
 
-        //Left Right Movement
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
-            moveVelocity = -speed;
-        }
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            moveVelocity = speed;
-        }
+            //Left Right Movement
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+            {
+                moveVelocity = -speed;
+            }
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+            {
+                moveVelocity = speed;
+            }
 
-        rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
-        Debug.Log(rb.velocity.y); 
+            rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
+        }
+        if (Time.timeScale == 0) canMove = false;
 
     }
     //Check if Grounded
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") {
-            grounded = true;
-            rb.velocity = new Vector2(rb.velocity.x,0);
-        }
+        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") grounded = true;
         if (col.gameObject.tag == "Ladder") rb.velocity = new Vector2(rb.velocity.x,0);
     }
     void OnTriggerExit2D(Collider2D col)
@@ -85,7 +86,7 @@ public class PlayerController : MonoBehaviour
             climb = false;
             rb.gravityScale = 1.0f;
         }
-        if(col.gameObject.tag == "Ground" || col.gameObject.tag == "Hostile") {
+        if(col.gameObject.tag == "Ground" || col.gameObject.tag == "Hostile" || col.gameObject.tag == "Water") {
             grounded = false;
         }
     }
