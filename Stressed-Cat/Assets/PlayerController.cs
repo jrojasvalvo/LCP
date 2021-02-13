@@ -15,8 +15,6 @@ public class PlayerController : MonoBehaviour
     public float fastFallSpeed;
     private bool climb;
     
-
-    
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
@@ -30,12 +28,11 @@ public class PlayerController : MonoBehaviour
         //Jumping and Climbing
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
         {
-            if (grounded && canJump)
+            if (grounded)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jump);
                 fastFall = 0f;
             }
-            canJump = false;
         } else {
             if (!grounded){
                 fastFall = fastFallSpeed;
@@ -90,11 +87,11 @@ public class PlayerController : MonoBehaviour
     //Check if on Climbable Object
     void OnTriggerStay2D(Collider2D col)
     {
-        grounded = true;
         //replace with object(s) name
         if (col.gameObject.tag == "Ladder")
         {
             climb = true;
+            grounded = true;
             rb.gravityScale = 0.0f;
             fastFall = 0f;
         }
