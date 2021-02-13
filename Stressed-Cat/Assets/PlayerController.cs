@@ -24,6 +24,11 @@ public class PlayerController : MonoBehaviour
     public float initial_y = -3.5f;
 
     public bool dead;
+
+    private AudioSource jumpSound;
+    private AudioSource climbSound;
+
+    public bool playJumpSound;
     
     void Start()
     {
@@ -34,6 +39,12 @@ public class PlayerController : MonoBehaviour
         facingRight = true;
         transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
+
+        AudioSource[] sound = GetComponents<AudioSource>();
+        jumpSound = sound[0];
+        climbSound = sound[1];
+
+        playJumpSound = false;
     }
     IEnumerator jumpAnim()
     {
@@ -52,6 +63,7 @@ public class PlayerController : MonoBehaviour
                     rb.velocity = new Vector2(rb.velocity.x, jump);
                     fastFall = 0f;
                     anim.SetTrigger("jump_start");
+                    playJumpSound = true;
                 }
             } else {
                 if (!grounded){
@@ -104,6 +116,13 @@ public class PlayerController : MonoBehaviour
                 
             camera.GetComponent<ScreenShake>().shake();
         }
+
+        if (playJumpSound == true)
+        {
+            jumpSound.Stop();
+            jumpSound.Play();
+            playJumpSound = false;
+        }
     }
 
     void FixedUpdate()
@@ -137,17 +156,20 @@ public class PlayerController : MonoBehaviour
             climb = true;
             fastFall = 0f;
             grounded = true;
+            climbSound.Stop();
+            climbSound.Play();
         }
         if (col.gameObject.tag == "Sight") {
             dead = true;
         }
     }
     void OnTriggerExit2D(Collider2D col)
-    {   
-        
+    {
+
         //if (col.gameObject.tag == "Ground") grounded = false;
         //replace with object(s) name
         if (col.gameObject.tag == "Ladder")
+            climbSound.Stop();
         {
             grounded = false;
             climb = false;
