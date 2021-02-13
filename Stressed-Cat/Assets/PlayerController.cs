@@ -30,11 +30,12 @@ public class PlayerController : MonoBehaviour
         //Jumping and Climbing
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
         {
-            if (grounded)
+            if (grounded && canJump)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jump);
                 fastFall = 0f;
             }
+            canJump = false;
         } else {
             if (!grounded){
                 fastFall = fastFallSpeed;
