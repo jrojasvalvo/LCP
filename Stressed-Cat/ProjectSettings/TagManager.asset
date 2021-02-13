@@ -7,6 +7,9 @@ TagManager:
   - Hostile
   - Ground
   - Ladder
+  - Water
+  - Donut
+  - End
   - Donut
   layers:
   - Default

@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Jumping and Climbing
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
         {
             if (grounded)
             {
@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
         }
 
         rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
+        Debug.Log(rb.velocity.y); 
 
     }
     //Check if Grounded

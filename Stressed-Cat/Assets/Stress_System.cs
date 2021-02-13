@@ -22,6 +22,10 @@ public class Stress_System : MonoBehaviour
     public int meditation_time = 5;
     private bool canMeditate = true;
 
+    public bool inWater = false;
+    public float water_stress_amt = 0.1f;
+    public float timeSlowRate = 0.05f;
+
     void Start()
     {
         startled = false;
@@ -75,16 +79,35 @@ public class Stress_System : MonoBehaviour
                 stress_level += (distance_from_hostile - dist) / 100f;
             }
         }
+
+        if (inWater) {
+            stress_level += water_stress_amt;
+        }
     }
-    
-    void OnTriggerEnter2D(Collider2D col)
-    { 
-        if (col.gameObject.tag == "Donut") {
-            col.gameObject.SetActive(false);
+
+    void OnTriggerEnter2D(Collider2D collider) {
+        if (collider.tag == "Water") {
+            inWater = true;
+        }
+        if (collider.tag == "Donut") {
+            collider.gameObject.SetActive(false);
             stress_level -= donut_stress_amt;
             if(stress_level <= 0) {
                 stress_level = 0;
             }
+        }
+        if (collider.tag == "End" && Time.timeScale > 0) {
+            collider.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            Time.timeScale -= timeSlowRate;
+            if (Time.timeScale < 0) {
+                Time.timeScale = 0;
+            }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider) {
+        if (collider.tag == "Water") {
+            inWater = false;
         }
     }
 }
