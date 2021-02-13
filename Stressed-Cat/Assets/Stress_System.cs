@@ -20,7 +20,7 @@ public class Stress_System : MonoBehaviour
     public float donut_pickup_distance = 0.6f;
 
     private float meditation_start;
-    public int meditation_time = 10;
+    public int meditation_time = 7;
     private bool canMeditate = true;
 
     void Start()
@@ -54,17 +54,16 @@ public class Stress_System : MonoBehaviour
         float y_diff;
         float dist;
 
-        print(player_x + " " + player_y);
-
         if(stress_level >= max_stress) {
             startled = true;
         }
         if(meditating) {
             print(Time.time);
+            gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, gameObject.GetComponent<Rigidbody2D>().velocity.y);
             if(Time.time - meditation_time >= meditation_start) {
                 meditating = false;
                 canMeditate = true;
-                stress_level = 0;
+                stress_level = 0f;
                 gameObject.GetComponent<PlayerController>().enabled = true;
             }
         }
