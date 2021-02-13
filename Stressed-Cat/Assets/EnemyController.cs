@@ -60,8 +60,8 @@ public class EnemyController : MonoBehaviour
     void reverseImage()
     {
         facingRight = !facingRight;
-        Vector2 scale = rb.transform.localScale;
+        Vector2 scale = transform.localScale;
         scale.x *= -1;
-        rb.transform.localScale = scale;
+        transform.localScale = scale;
     }
 }
