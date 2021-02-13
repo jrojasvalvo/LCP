@@ -74,6 +74,7 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
         Debug.Log(rb.velocity.y); 
+    }
 
     void FixedUpdate()
     {
@@ -84,7 +85,14 @@ public class PlayerController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") grounded = true;
-        if (col.gameObject.tag == "Ladder") rb.velocity = new Vector2(rb.velocity.x,0);
+        if (col.gameObject.tag == "Ladder") 
+        {
+            rb.velocity = new Vector2(rb.velocity.x,0);
+            rb.gravityScale = 0.0f;
+            climb = true;
+            fastFall = 0f;
+            grounded = true;
+        }
     }
     void OnTriggerExit2D(Collider2D col)
     {   
