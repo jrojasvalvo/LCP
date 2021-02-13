@@ -136,6 +136,10 @@ public class PlayerController : MonoBehaviour
             rb.gravityScale = 0.0f;
             fastFall = 0f;
         }
+        if (col.gameObject.tag == "Ground")
+        {
+            grounded = true;
+        }
     }
 
     void reverseImage()
