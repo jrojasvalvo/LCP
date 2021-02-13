@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
+    public GameObject camera;
 
     //Movement
     public float speed;
@@ -17,16 +18,12 @@ public class PlayerController : MonoBehaviour
     float fastFall = 0f;
     public float fastFallSpeed;
     private bool climb;
+    public bool canMove = true;
 
-    public float initial_x = -11f;
+    public float initial_x = -8f;
     public float initial_y = -3.5f;
 
     public bool dead;
-
-    private AudioSource jumpSound;
-    private AudioSource climbSound;
-
-    bool playJumpSound;
     
     void Start()
     {
@@ -37,43 +34,40 @@ public class PlayerController : MonoBehaviour
         facingRight = true;
         transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
-
-        AudioSource[] sound = GetComponents<AudioSource>();
-
-        jumpSound = sound[0];
-        climbSound = sound[1];
-
-        playJumpSound = false;
+    }
+    IEnumerator jumpAnim()
+    {
+        anim.SetTrigger("jump_start");
+        yield return new WaitForSeconds(0.25f);
     }
 
-
     void Update()
-    {
-        //Jumping and Climbing
-        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
-        {
-            if (grounded)
+    {   
+        if (canMove) {
+            //Jumping and Climbing
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
             {
-                rb.velocity = new Vector2(rb.velocity.x, jump);
-                fastFall = 0f;
-
-                playJumpSound = true;
+                if (grounded)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, jump);
+                    fastFall = 0f;
+                    anim.SetTrigger("jump_start");
+                }
+            } else {
+                if (!grounded){
+                    fastFall = fastFallSpeed;
+                }
             }
-        } else {
-            if (!grounded){
-                fastFall = fastFallSpeed;
-            }
-        }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
-        {
-            if (climb)
+            if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             {
-                rb.velocity = new Vector2(rb.velocity.x, -jump);
+                if (climb)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, -jump);
+                }
             }
-        }
 
-        moveVelocity = 0;
+            moveVelocity = 0;
 
         //Left Right Movement
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -93,8 +87,9 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
-        Debug.Log(rb.velocity.y); 
+            rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
+        }
+        if (Time.timeScale == 0) canMove = false;
 
         if(dead) {
             transform.position = new Vector3(initial_x, initial_y, 0);
@@ -102,26 +97,39 @@ public class PlayerController : MonoBehaviour
             climb = false;
             this.gameObject.GetComponent<Stress_System>().stress_level = 0;
             dead = false;
+            canMove = true;
+            this.gameObject.GetComponent<Stress_System>().meditating = false;
+            this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
+            this.gameObject.GetComponent<Stress_System>().canMeditate = true;
+                
+            camera.GetComponent<ScreenShake>().shake();
         }
-
-        if (playJumpSound == true)
-        {
-            jumpSound.Stop();
-            jumpSound.Play();
-            playJumpSound = false;
-        }
-
     }
 
     void FixedUpdate()
     {
         anim.SetFloat("speed", Mathf.Abs(rb.velocity.x));
+        if (grounded)
+        {
+            anim.SetTrigger("landing");
+        }
+        else
+        {
+            anim.ResetTrigger("landing");
+        }
     }
 
     //Check if Grounded
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder") grounded = true;
+        if (col.gameObject.tag == "Ground" )
+        {
+           grounded = true;
+           anim.SetTrigger("landing");
+        }
+        
+        if (col.gameObject.tag == "Ladder") grounded = true;
+
         if (col.gameObject.tag == "Ladder") 
         {
             rb.velocity = new Vector2(rb.velocity.x,0);
@@ -129,9 +137,6 @@ public class PlayerController : MonoBehaviour
             climb = true;
             fastFall = 0f;
             grounded = true;
-
-            climbSound.Stop();
-            climbSound.Play();
         }
         if (col.gameObject.tag == "Sight") {
             dead = true;
@@ -143,7 +148,6 @@ public class PlayerController : MonoBehaviour
         //if (col.gameObject.tag == "Ground") grounded = false;
         //replace with object(s) name
         if (col.gameObject.tag == "Ladder")
-            climbSound.Stop();
         {
             grounded = false;
             climb = false;
@@ -151,7 +155,6 @@ public class PlayerController : MonoBehaviour
         }
         if(col.gameObject.tag == "Ground") {
             grounded = false;
-            
         }
     }
 

@@ -12,7 +12,7 @@ public class Stress_System : MonoBehaviour
 
     public GameObject enemies;
     public Image stress_bar;
-    public GameObject camera;
+    
 
     private Transform[] all_enemies;
     public float distance_from_hostile = 5f;
@@ -28,7 +28,7 @@ public class Stress_System : MonoBehaviour
     public float water_stress_amt = 0.1f;
     public float timeSlowRate = 0.05f;
     bool slowDown = false;
-    bool canShake = true;
+    
 
     public Image meditationBar;
 
@@ -47,7 +47,7 @@ public class Stress_System : MonoBehaviour
     {   
         stress_bar.fillAmount = 1 - stress_level / max_stress;
         stress_bar.color = new Color32((byte)(stress_level),
-                                       (byte)(100 - stress_level),0,100);
+                                       (byte)(100 - stress_level),0,255);
 
         if(Input.GetKey(KeyCode.E) && canMeditate) {
             canMeditate = false;
@@ -68,11 +68,7 @@ public class Stress_System : MonoBehaviour
         if(stress_level >= max_stress) {
             //startled = true;
             //Need this so the screen doesn't constantly shake
-            if (canShake) {
-                camera.GetComponent<ScreenShake>().shake();
-                canShake = false;
-            }
-            
+            gameObject.GetComponent<PlayerController>().dead = true;
         }
         if(meditating) {
             meditationBar.fillAmount = (Time.time - meditation_start) / meditation_time;
