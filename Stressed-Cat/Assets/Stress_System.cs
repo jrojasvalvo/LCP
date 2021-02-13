@@ -26,6 +26,7 @@ public class Stress_System : MonoBehaviour
 
     public bool inWater = false;
     public float water_stress_amt = 0.1f;
+    public float timeSlowRate = 0.05f;
 
     void Start()
     {
@@ -117,6 +118,13 @@ public class Stress_System : MonoBehaviour
             stress_level -= donut_stress_amt;
             if(stress_level <= 0) {
                 stress_level = 0;
+            }
+        }
+        if (collider.tag == "End" && Time.timeScale > 0) {
+            collider.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            Time.timeScale -= timeSlowRate;
+            if (Time.timeScale < 0) {
+                Time.timeScale = 0;
             }
         }
     }
