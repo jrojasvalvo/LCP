@@ -13,19 +13,22 @@ public class PlayerController : MonoBehaviour
     bool grounded = true;
     float fastFall = 0f;
     public float fastFallSpeed;
+    private bool climb;
     
 
     
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
+        grounded = true;
+        climb = false;
     }
 
 
     void Update()
     {
-        //Jumping
-        if (Input.GetButton("Jump"))
+        //Jumping and Climbing
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
         {
             if (grounded)
             {
@@ -35,6 +38,14 @@ public class PlayerController : MonoBehaviour
         } else {
             if (!grounded){
                 fastFall = fastFallSpeed;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (climb)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, -jump);
             }
         }
 
@@ -54,16 +65,31 @@ public class PlayerController : MonoBehaviour
 
     }
     //Check if Grounded
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.collider.tag == "Ground") {
-            grounded = true;
+        if (col.gameObject.tag == "Ground") grounded = true;
+    }
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Ground") grounded = false;
+        //replace with object(s) name
+        if (col.gameObject.tag == "Ladder")
+        {
+            climb = false;
+            rb.gravityScale = 1.0f;
+            rb.velocity = new Vector2(rb.velocity.x,0);
         }
     }
-    void OnCollisionExit2D(Collision2D collision)
+
+    //Check if on Climbable Object
+    void OnTriggerStay2D(Collider2D col)
     {
-        if (collision.collider.tag == "Ground") {
-            grounded = false;
+        grounded = true;
+        //replace with object(s) name
+        if (col.gameObject.tag == "Ladder")
+        {
+            climb = true;
+            rb.gravityScale = 0.0f;
         }
     }
 }
