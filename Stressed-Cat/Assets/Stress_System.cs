@@ -26,6 +26,8 @@ public class Stress_System : MonoBehaviour
     public float water_stress_amt = 0.1f;
     public float timeSlowRate = 0.05f;
 
+    private AudioSource catStartledSound;
+
     void Start()
     {
         startled = false;
