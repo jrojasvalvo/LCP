@@ -451,6 +451,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226938263}
     m_Modifications:
+    - target: {fileID: 2395407827985418320, guid: fa4fc9d16232f75448cf7fb20548fa0d,
+        type: 3}
+      propertyPath: m_UseOneWay
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5039725262494635722, guid: fa4fc9d16232f75448cf7fb20548fa0d,
         type: 3}
       propertyPath: m_Name
@@ -563,6 +568,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226938263}
     m_Modifications:
+    - target: {fileID: 2395407827985418320, guid: fa4fc9d16232f75448cf7fb20548fa0d,
+        type: 3}
+      propertyPath: m_UseOneWay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2395407827985418320, guid: fa4fc9d16232f75448cf7fb20548fa0d,
         type: 3}
       propertyPath: m_UseColliderMask
@@ -734,7 +744,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 6.1833334, y: 7.0524025}
-    newSize: {x: 8, y: 8}
+    newSize: {x: 6.201628, y: 7.066666}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -755,6 +765,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226938263}
     m_Modifications:
+    - target: {fileID: 2395407827985418320, guid: fa4fc9d16232f75448cf7fb20548fa0d,
+        type: 3}
+      propertyPath: m_UseOneWay
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5039725262494635722, guid: fa4fc9d16232f75448cf7fb20548fa0d,
         type: 3}
       propertyPath: m_Name
