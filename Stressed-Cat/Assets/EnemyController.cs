@@ -53,6 +53,7 @@ public class EnemyController : MonoBehaviour
         //once stealth implemented add condition !Player.stealthed
         if (Mathf.Abs(Vector2.Angle(forward, v)) < angle && Vector2.Distance(player_pos, (Vector2)transform.position) < radius)
         {
+            Player.GetComponent<PlayerController>().dead = true;
             Debug.Log("uwu hello there");
         }
     }

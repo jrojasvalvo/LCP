@@ -17,6 +17,11 @@ public class PlayerController : MonoBehaviour
     float fastFall = 0f;
     public float fastFallSpeed;
     private bool climb;
+
+    public float initial_x = -11f;
+    public float initial_y = -3.5f;
+
+    public bool dead;
     
     void Start()
     {
@@ -25,6 +30,8 @@ public class PlayerController : MonoBehaviour
         grounded = true;
         climb = false;
         facingRight = true;
+        transform.position = new Vector3(initial_x, initial_y, 0);
+        dead = false;
     }
 
 
@@ -74,6 +81,14 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
         Debug.Log(rb.velocity.y); 
+
+        if(dead) {
+            transform.position = new Vector3(initial_x, initial_y, 0);
+            grounded = true;
+            climb = false;
+            this.gameObject.GetComponent<Stress_System>().stress_level = 0;
+            dead = false;
+        }
     }
 
     void FixedUpdate()
@@ -84,7 +99,7 @@ public class PlayerController : MonoBehaviour
     //Check if Grounded
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") grounded = true;
+        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder") grounded = true;
         if (col.gameObject.tag == "Ladder") 
         {
             rb.velocity = new Vector2(rb.velocity.x,0);
@@ -105,7 +120,7 @@ public class PlayerController : MonoBehaviour
             climb = false;
             rb.gravityScale = 1.0f;
         }
-        if(col.gameObject.tag == "Ground" || col.gameObject.tag == "Hostile") {
+        if(col.gameObject.tag == "Ground") {
             grounded = false;
         }
     }
