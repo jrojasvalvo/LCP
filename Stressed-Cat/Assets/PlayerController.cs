@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 camera_init;
 
     public bool dead;
+    public bool canJump = true;
     
     void Start()
     {
@@ -51,7 +52,7 @@ public class PlayerController : MonoBehaviour
             //Jumping and Climbing
             if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
             {
-                if (grounded)
+                if (grounded && canJump)
                 {
                     rb.velocity = new Vector2(rb.velocity.x, jump);
                     fastFall = 0f;
@@ -61,6 +62,15 @@ public class PlayerController : MonoBehaviour
                 if (!grounded){
                     fastFall = fastFallSpeed;
                 }
+            }
+            //can't just hold down the jump button and keep jumping
+            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.UpArrow) 
+                || Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.W)) {
+                    canJump = true;
+            }
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) 
+                || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)) {
+                    canJump = false;
             }
 
             if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
@@ -73,23 +83,23 @@ public class PlayerController : MonoBehaviour
 
             moveVelocity = 0;
 
-        //Left Right Movement
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
-            moveVelocity = -speed;
-            if (facingRight)
+            //Left Right Movement
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
-                reverseImage();
+                moveVelocity = -speed;
+                if (facingRight)
+                {
+                    reverseImage();
+                }
             }
-        }
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            moveVelocity = speed;
-            if (!facingRight)
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             {
-                reverseImage();
+                moveVelocity = speed;
+                if (!facingRight)
+                {
+                    reverseImage();
+                }
             }
-        }
 
             rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
         }
