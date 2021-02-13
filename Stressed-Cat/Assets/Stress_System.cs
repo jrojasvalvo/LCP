@@ -94,6 +94,9 @@ public class Stress_System : MonoBehaviour
                 
                 all_donuts[i].gameObject.SetActive(false);
                 stress_level -= donut_stress_amt;
+                if(stress_level <= 0) {
+                    stress_level = 0;
+                }
             }
         }
     }
