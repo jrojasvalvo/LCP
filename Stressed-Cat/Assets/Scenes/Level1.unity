@@ -858,11 +858,11 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1, y: 1.5}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 23.88, y: 16.685682}
+    oldSize: {x: 6.1833334, y: 7.0524025}
     newSize: {x: 8, y: 8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1221,6 +1221,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6785961290884396584, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7270c01ffe6dc6841bf14b2598b0d3e4, type: 2}
     - target: {fileID: 7741296320950728944, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: donuts
@@ -1249,12 +1254,12 @@ PrefabInstance:
     - target: {fileID: 7741296320950728945, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.224
+      value: -7.13
       objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728945, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.499
+      value: -2.53
       objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728945, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
@@ -1338,6 +1343,12 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7741296320950728950, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9199513373696618531, guid: 6eb1de41682094449b0f47ec46529cc1,
+        type: 3}
     - target: {fileID: 7741296320950728951, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_Radius
@@ -1346,12 +1357,12 @@ PrefabInstance:
     - target: {fileID: 7741296320950728951, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_Offset.x
-      value: 1.0906696
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728951, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_Offset.y
-      value: 1.9995618
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 652ec710bd6cdf54582abda63b4b561e, type: 3}

@@ -26,7 +26,12 @@ public class PlayerController : MonoBehaviour
         climb = false;
         facingRight = true;
     }
-
+    IEnumerator jumpAnim()
+    {
+        anim.SetTrigger("jump_start");
+        yield return new WaitForSeconds(0.25f);
+        //anim.ResetTrigger("jump_start");
+    }
 
     void Update()
     {
@@ -37,6 +42,7 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity = new Vector2(rb.velocity.x, jump);
                 fastFall = 0f;
+                anim.SetTrigger("jump_start");
             }
         } else {
             if (!grounded){
@@ -79,12 +85,27 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         anim.SetFloat("speed", Mathf.Abs(rb.velocity.x));
+        if (grounded)
+        {
+            anim.SetTrigger("landing");
+        }
+        else
+        {
+            anim.ResetTrigger("landing");
+        }
     }
 
     //Check if Grounded
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile") grounded = true;
+        if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Ladder" || col.gameObject.tag == "Hostile")
+        {
+            grounded = true;
+        }
+        if (col.gameObject.tag == "Ground")
+        {
+            anim.SetTrigger("landing");
+        }
         if (col.gameObject.tag == "Ladder") 
         {
             rb.velocity = new Vector2(rb.velocity.x,0);
