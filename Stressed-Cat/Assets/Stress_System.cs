@@ -11,6 +11,7 @@ public class Stress_System : MonoBehaviour
 
     public GameObject enemies;
     public GameObject stress_bar;
+    public GameObject camera;
 
     private Transform[] all_enemies;
     public float distance_from_hostile = 5f;
@@ -21,10 +22,12 @@ public class Stress_System : MonoBehaviour
     private float meditation_start;
     public int meditation_time = 5;
     private bool canMeditate = true;
-
+    public float enemy_stress_rate;
     public bool inWater = false;
     public float water_stress_amt = 0.1f;
     public float timeSlowRate = 0.05f;
+    bool slowDown = false;
+    bool canShake = true;
 
     void Start()
     {
@@ -38,6 +41,13 @@ public class Stress_System : MonoBehaviour
         stress_bar.transform.localScale = new Vector3((1f - (stress_level / max_stress)), 
                                                        stress_bar.transform.localScale.y,
                                                        stress_bar.transform.localScale.z);
+
+        if (stress_bar.transform.localScale.x < 0) 
+        {
+            stress_bar.transform.localScale = new Vector3(0, 
+                                                       stress_bar.transform.localScale.y,
+                                                       stress_bar.transform.localScale.z);
+        }
 
         if(Input.GetKey(KeyCode.E) && canMeditate) {
             canMeditate = false;
@@ -56,10 +66,15 @@ public class Stress_System : MonoBehaviour
         float dist;
 
         if(stress_level >= max_stress) {
-            startled = true;
+            //startled = true;
+            //Need this so the screen doesn't constantly shake
+            if (canShake) {
+                camera.GetComponent<ScreenShake>().shake();
+                canShake = false;
+            }
+            
         }
         if(meditating) {
-            print(Time.time);
             gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, gameObject.GetComponent<Rigidbody2D>().velocity.y);
             if(Time.time - meditation_time >= meditation_start) {
                 meditating = false;
@@ -76,12 +91,19 @@ public class Stress_System : MonoBehaviour
             y_diff = Math.Abs(player_y - enemy_y);
             dist = (float)(Math.Sqrt(x_diff * x_diff + y_diff * y_diff));
             if(dist <= distance_from_hostile) {
-                stress_level += (distance_from_hostile - dist) / 100f;
+                stress_level += (distance_from_hostile - dist) * enemy_stress_rate;
             }
         }
 
         if (inWater) {
             stress_level += water_stress_amt;
+        }
+        if (slowDown) {
+            if (Time.timeScale - timeSlowRate < 0) {
+                Time.timeScale = 0;
+            } else {
+                Time.timeScale -= timeSlowRate;
+            }
         }
     }
 
@@ -98,10 +120,7 @@ public class Stress_System : MonoBehaviour
         }
         if (collider.tag == "End" && Time.timeScale > 0) {
             collider.gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            Time.timeScale -= timeSlowRate;
-            if (Time.timeScale < 0) {
-                Time.timeScale = 0;
-            }
+            slowDown = true;
         }
     }
 
