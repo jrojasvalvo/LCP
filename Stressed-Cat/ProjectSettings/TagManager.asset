@@ -42,3 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Stress Bar
+    uniqueID: 604355587
+    locked: 0

@@ -11,6 +11,7 @@ public class Stress_System : MonoBehaviour
 
     public GameObject enemies;
     public GameObject donuts;
+    public GameObject stress_bar;
 
     private Transform[] all_enemies;
     private Transform[] all_donuts;
@@ -20,7 +21,7 @@ public class Stress_System : MonoBehaviour
     public float donut_pickup_distance = 0.6f;
 
     private float meditation_start;
-    public int meditation_time = 7;
+    public int meditation_time = 5;
     private bool canMeditate = true;
 
     void Start()
@@ -33,6 +34,10 @@ public class Stress_System : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+        stress_bar.transform.localScale = new Vector3((1f - (stress_level / max_stress)), 
+                                                       stress_bar.transform.localScale.y,
+                                                       stress_bar.transform.localScale.z);
+
         if(Input.GetKey(KeyCode.E) && canMeditate) {
             canMeditate = false;
             meditating = true;
