@@ -9,9 +9,12 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jump;
     float moveVelocity;
-
     //Grounded Vars
     bool grounded = true;
+    float fastFall = 0f;
+    public float fastFallSpeed;
+    
+
     
     void Start()
     {
@@ -22,11 +25,16 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Jumping
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetButton("Jump"))
         {
             if (grounded)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jump);
+                fastFall = 0f;
+            }
+        } else {
+            if (!grounded){
+                fastFall = fastFallSpeed;
             }
         }
 
@@ -42,16 +50,20 @@ public class PlayerController : MonoBehaviour
             moveVelocity = speed;
         }
 
-        rb.velocity = new Vector2(moveVelocity, rb.velocity.y);
+        rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
 
     }
     //Check if Grounded
-    void OnTriggerEnter2D()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        grounded = true;
+        if (collision.collider.tag == "Ground") {
+            grounded = true;
+        }
     }
-    void OnTriggerExit2D()
+    void OnCollisionExit2D(Collision2D collision)
     {
-        grounded = false;
+        if (collision.collider.tag == "Ground") {
+            grounded = false;
+        }
     }
 }
