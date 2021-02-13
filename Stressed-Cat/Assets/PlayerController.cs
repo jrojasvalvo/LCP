@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public float fastFallSpeed;
     private bool climb;
 
-    public float initial_x = -11f;
+    public float initial_x = -8f;
     public float initial_y = -3.5f;
 
     public bool dead;
