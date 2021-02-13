@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 
     private AudioSource jumpSound;
     private AudioSource climbSound;
+
+    bool playJumpSound;
     
     void Start()
     {
@@ -40,6 +42,8 @@ public class PlayerController : MonoBehaviour
 
         jumpSound = sound[0];
         climbSound = sound[1];
+
+        playJumpSound = false;
     }
 
 
@@ -53,8 +57,7 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, jump);
                 fastFall = 0f;
 
-                //jumpSound.Stop();
-                //jumpSound.Play();
+                playJumpSound = true;
             }
         } else {
             if (!grounded){
@@ -100,6 +103,14 @@ public class PlayerController : MonoBehaviour
             this.gameObject.GetComponent<Stress_System>().stress_level = 0;
             dead = false;
         }
+
+        if (playJumpSound == true)
+        {
+            jumpSound.Stop();
+            jumpSound.Play();
+            playJumpSound = false;
+        }
+
     }
 
     void FixedUpdate()
