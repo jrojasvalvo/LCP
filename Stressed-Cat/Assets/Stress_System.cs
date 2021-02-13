@@ -24,6 +24,9 @@ public class Stress_System : MonoBehaviour
     public int meditation_time = 5;
     private bool canMeditate = true;
 
+    public bool inWater = false;
+    public float water_stress_amt = 0.1f;
+
     void Start()
     {
         startled = false;
@@ -98,6 +101,22 @@ public class Stress_System : MonoBehaviour
                     stress_level = 0;
                 }
             }
+        }
+
+        if (inWater) {
+            stress_level += water_stress_amt;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider) {
+        if (collider.tag == "Water") {
+            inWater = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider) {
+        if (collider.tag == "Water") {
+            inWater = false;
         }
     }
 }

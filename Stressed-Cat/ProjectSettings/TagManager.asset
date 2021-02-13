@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hostile
   - Ground
+  - Water
   layers:
   - Default
   - TransparentFX
