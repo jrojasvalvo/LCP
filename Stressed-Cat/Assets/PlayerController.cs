@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
+    public GameObject camera;
 
     //Movement
     public float speed;
@@ -18,8 +19,6 @@ public class PlayerController : MonoBehaviour
     public float fastFallSpeed;
     private bool climb;
     public bool canMove = true;
-
-    
 
     public float initial_x = -8f;
     public float initial_y = -3.5f;
@@ -40,7 +39,6 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetTrigger("jump_start");
         yield return new WaitForSeconds(0.25f);
-        //anim.ResetTrigger("jump_start");
     }
 
     void Update()
@@ -103,6 +101,8 @@ public class PlayerController : MonoBehaviour
             this.gameObject.GetComponent<Stress_System>().meditating = false;
             this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
             this.gameObject.GetComponent<Stress_System>().canMeditate = true;
+                
+            camera.GetComponent<ScreenShake>().shake();
         }
     }
 
