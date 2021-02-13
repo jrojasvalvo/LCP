@@ -4,11 +4,14 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private Animator anim;
 
     //Movement
     public float speed;
     public float jump;
     float moveVelocity;
+    private bool facingRight;
+
     //Grounded Vars
     bool grounded = true;
     float fastFall = 0f;
@@ -18,8 +21,10 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         grounded = true;
         climb = false;
+        facingRight = true;
     }
 
 
@@ -53,16 +58,28 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             moveVelocity = -speed;
+            if (facingRight)
+            {
+                reverseImage();
+            }
         }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             moveVelocity = speed;
+            if (!facingRight)
+            {
+                reverseImage();
+            }
         }
 
         rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
         Debug.Log(rb.velocity.y); 
 
+    void FixedUpdate()
+    {
+        anim.SetFloat("speed", Mathf.Abs(rb.velocity.x));
     }
+
     //Check if Grounded
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -96,5 +113,13 @@ public class PlayerController : MonoBehaviour
             rb.gravityScale = 0.0f;
             fastFall = 0f;
         }
+    }
+
+    void reverseImage()
+    {
+        facingRight = !facingRight;
+        Vector2 scale = rb.transform.localScale;
+        scale.x *= -1;
+        rb.transform.localScale = scale;
     }
 }
