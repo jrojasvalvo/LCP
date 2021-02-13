@@ -108,6 +108,9 @@ public class PlayerController : MonoBehaviour
             fastFall = 0f;
             grounded = true;
         }
+        if (col.gameObject.tag == "Sight") {
+            dead = true;
+        }
     }
     void OnTriggerExit2D(Collider2D col)
     {   

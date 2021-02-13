@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Ground, Ladder, Hostile, Ground, Ladder, Water, Donut, End, Donut]
+  tags:
+  - Ground
+  - Ladder
+  - Hostile
+  - Ground
+  - Ladder
+  - Water
+  - Donut
+  - End
+  - Donut
+  - Sight
   layers:
   - Default
   - TransparentFX
