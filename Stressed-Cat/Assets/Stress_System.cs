@@ -6,11 +6,22 @@ public class Stress_System : MonoBehaviour
     // Start is called before the first frame update
     public float max_stress = 100f;
     public float stress_level = 0f;
-    private bool startled = false;
+    private bool startled;
+    public bool meditating = false;
+
     public GameObject enemies;
     public GameObject donuts;
+
     private Transform[] all_enemies;
     private Transform[] all_donuts;
+    public float distance_from_hostile = 5f;
+
+    public float donut_stress_amt = 20f;
+    public float donut_pickup_distance = 0.6f;
+
+    private float meditation_start;
+    public int meditation_time = 10;
+    private bool canMeditate = true;
 
     void Start()
     {
@@ -22,6 +33,12 @@ public class Stress_System : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+        if(Input.GetKey(KeyCode.E) && canMeditate) {
+            canMeditate = false;
+            meditating = true;
+            meditation_start = Time.time;
+            gameObject.GetComponent<PlayerController>().enabled = false;
+        }
         float player_x = transform.position.x;
         float player_y = transform.position.y;
 
@@ -37,9 +54,19 @@ public class Stress_System : MonoBehaviour
         float y_diff;
         float dist;
 
+        print(player_x + " " + player_y);
 
         if(stress_level >= max_stress) {
             startled = true;
+        }
+        if(meditating) {
+            print(Time.time);
+            if(Time.time - meditation_time >= meditation_start) {
+                meditating = false;
+                canMeditate = true;
+                stress_level = 0;
+                gameObject.GetComponent<PlayerController>().enabled = true;
+            }
         }
         //Check for proximity to enemies to increase stress level:
         for(int i = 0; i < all_enemies.Length; i++) {
@@ -48,8 +75,8 @@ public class Stress_System : MonoBehaviour
             x_diff = Math.Abs(player_x - enemy_x);
             y_diff = Math.Abs(player_y - enemy_y);
             dist = (float)(Math.Sqrt(x_diff * x_diff + y_diff * y_diff));
-            if(dist <= 5) {
-                stress_level += (5 - dist) / 100;
+            if(dist <= distance_from_hostile) {
+                stress_level += (distance_from_hostile - dist) / 100f;
             }
         }
         //Check if the player is close enough to any donuts to collect them:
@@ -59,11 +86,11 @@ public class Stress_System : MonoBehaviour
             x_diff = Math.Abs(player_x - donut_x);
             y_diff = Math.Abs(player_y - donut_y);
             dist = (float)(Math.Sqrt(x_diff * x_diff + y_diff * y_diff));
-            if(dist <= 0.6 && all_donuts[i].gameObject.active) {
+            if(dist <= donut_pickup_distance && all_donuts[i].gameObject.active) {
+                
                 all_donuts[i].gameObject.SetActive(false);
-                stress_level -= 20;
+                stress_level -= donut_stress_amt;
             }
         }
-        print(stress_level);
     }
 }
