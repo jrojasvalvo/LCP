@@ -134,6 +134,7 @@ public class PlayerController : MonoBehaviour
             }
             //cam.GetComponent<ScreenShake>().shake();
         }
+        LoadNext();
     }
 
     void FixedUpdate()
@@ -174,10 +175,13 @@ public class PlayerController : MonoBehaviour
             dead = true;
             stress.PlayBark();
         }
+
+        if (col.gameObject.tag == "End" ) {
+
+        }
     }
     void OnTriggerExit2D(Collider2D col)
     {   
-        
         //if (col.gameObject.tag == "Ground") grounded = false;
         //replace with object(s) name
         if (col.gameObject.tag == "Ladder")
