@@ -8,10 +8,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject cam;
-<<<<<<< HEAD:Stressed-Cat/Assets/Scripts/PlayerController.cs
     public GameObject gameManager;
-=======
->>>>>>> 7ff825da3c49b525341ef1a121cda648d6f5a1ae:Stressed-Cat/Assets/PlayerController.cs
 
     //Movement
     public float speed;
@@ -26,17 +23,11 @@ public class PlayerController : MonoBehaviour
     private bool climb;
     public bool canMove = true;
 
-<<<<<<< HEAD:Stressed-Cat/Assets/Scripts/PlayerController.cs
-    // public float initial_x = -8f;
-    // public float initial_y = -3.5f;
-    Vector3 initialPosition;
-=======
     public float initial_x = -7.13f;
     public float initial_y = -2.5f;
 
     public Vector3 camera_init;
 
->>>>>>> 7ff825da3c49b525341ef1a121cda648d6f5a1ae:Stressed-Cat/Assets/PlayerController.cs
     public bool dead;
     public bool canJump = true;
     
@@ -49,12 +40,8 @@ public class PlayerController : MonoBehaviour
         facingRight = true;
         //transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
-<<<<<<< HEAD:Stressed-Cat/Assets/Scripts/PlayerController.cs
-        initialPosition = transform.position;
-=======
         cam = GameObject.Find("Main Camera");
         camera_init = cam.transform.position;
->>>>>>> 7ff825da3c49b525341ef1a121cda648d6f5a1ae:Stressed-Cat/Assets/PlayerController.cs
     }
     IEnumerator jumpAnim()
     {
@@ -122,10 +109,7 @@ public class PlayerController : MonoBehaviour
         if (Time.timeScale == 0) canMove = false;
 
         if(dead) {
-<<<<<<< HEAD:Stressed-Cat/Assets/Scripts/PlayerController.cs
-            //transform.position = new Vector3(initial_x, initial_y, 0);
-            
-            // transform.position = initialPosition;
+            // transform.position = new Vector3(initial_x, initial_y, 0);
             // grounded = true;
             // climb = false;
             // this.gameObject.GetComponent<Stress_System>().stress_level = 0;
@@ -134,27 +118,10 @@ public class PlayerController : MonoBehaviour
             // this.gameObject.GetComponent<Stress_System>().meditating = false;
             // this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
             // this.gameObject.GetComponent<Stress_System>().canMeditate = true;
-            // Time.timeScale = 1;
-                
-            // camera.GetComponent<ScreenShake>().shake();
-            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-            //Doing this because if we do the stuff above, it doesn't respawn the donuts
+            // cam.transform.position = camera_init;
+            // //cam.GetComponent<ScreenShake>().shake();
             gameManager.GetComponent<gameManager>().callRestart();
-=======
-            transform.position = new Vector3(initial_x, initial_y, 0);
-            grounded = true;
-            climb = false;
-            this.gameObject.GetComponent<Stress_System>().stress_level = 0;
-            dead = false;
-            canMove = true;
-            this.gameObject.GetComponent<Stress_System>().meditating = false;
-            this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
-            this.gameObject.GetComponent<Stress_System>().canMeditate = true;
-
-            cam.transform.position = camera_init;
-            //cam.GetComponent<ScreenShake>().shake();
->>>>>>> 7ff825da3c49b525341ef1a121cda648d6f5a1ae:Stressed-Cat/Assets/PlayerController.cs
         }
         LoadNext();
     }
