@@ -267,7 +267,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &54208708
 RectTransform:
@@ -2831,7 +2831,7 @@ PrefabInstance:
         type: 3}
       propertyPath: stress_bar
       value: 
-      objectReference: {fileID: 326097363}
+      objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728944, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: timeSlowRate
@@ -2841,7 +2841,7 @@ PrefabInstance:
         type: 3}
       propertyPath: meditationBar
       value: 
-      objectReference: {fileID: 1784570744}
+      objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728945, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_RootOrder
