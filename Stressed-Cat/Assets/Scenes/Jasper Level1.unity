@@ -565,6 +565,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.99
       objectReference: {fileID: 0}
+    - target: {fileID: 7246661390284491247, guid: 42524858f064c8647a95d9ba2335e23c,
+        type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1887614019}
     - target: {fileID: 7724036234616272969, guid: 42524858f064c8647a95d9ba2335e23c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -711,6 +716,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 743f848c9b263c141af0e234e652200e, type: 3}
+--- !u!1 &1887614019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4426804427657055597, guid: 42524858f064c8647a95d9ba2335e23c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229664225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2013702578
 PrefabInstance:
   m_ObjectHideFlags: 0

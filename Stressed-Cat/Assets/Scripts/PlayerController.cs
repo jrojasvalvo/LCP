@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
     public bool canJump = true;
 
     public Stress_System stress;
+
+    public GameObject button;
     
     void Start()
     {
@@ -180,6 +182,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (col.gameObject.tag == "End" ) {
+            button.SetActive(true);
         }
     }
     void OnTriggerExit2D(Collider2D col)
