@@ -135,7 +135,7 @@ public class PlayerController : MonoBehaviour
 
              gameManager.GetComponent<gameManager>().callRestart();
         }
-        LoadNext();
+        //LoadNext();
     }
 
     void FixedUpdate()
