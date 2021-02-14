@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-13T20:06:24.224-05:00
-  initializedAtString: 2021-02-13T20:01:11.561-05:00
+  lastUpdatedAtString: 2021-02-13T20:20:38.158-05:00
+  initializedAtString: 2021-02-13T20:17:47.182-05:00
   localBranches:
+  - name: Kyle-Test
+    tracking: origin/Kyle-Test
   - name: TestBranch
     tracking: origin/TestBranch
   remoteBranches:
@@ -35,8 +37,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Kyle-Test
     - TestBranch
     values:
+    - name: Kyle-Test
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Kyle-Test
     - name: TestBranch
       remote:
         name: origin

@@ -64,13 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\Logo.cs" />
     <Compile Include="Assets\Play.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\ScreenShake.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\ScreenShake.cs" />
+    <Compile Include="Assets\Scripts\Stress_System.cs" />
+    <Compile Include="Assets\Scripts\gameManager.cs" />
     <Compile Include="Assets\Sound_Manager.cs" />
-    <Compile Include="Assets\Stress_System.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
