@@ -1514,11 +1514,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 864769830196048983, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440466852700209798, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444851688298143448, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6785961290884396584, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7270c01ffe6dc6841bf14b2598b0d3e4, type: 2}
+    - target: {fileID: 6930189149728821075, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114862388289070072, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728944, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: camera
@@ -1690,6 +1715,11 @@ PrefabInstance:
     - target: {fileID: 7741296320950728951, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410782738663247247, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489189019140972545, guid: 652ec710bd6cdf54582abda63b4b561e,
