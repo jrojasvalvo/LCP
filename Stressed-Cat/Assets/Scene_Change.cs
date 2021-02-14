@@ -43,7 +43,7 @@ public class Scene_Change : MonoBehaviour
     void OnMouseDown()
     {
         LoadNext();
-        buttonSound.Play();
+        //buttonSound.Play();
     }
 
     void OnMouseEnter()
