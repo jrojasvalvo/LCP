@@ -1661,12 +1661,12 @@ PrefabInstance:
     - target: {fileID: 2569633607375223071, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.57
+      value: 16.7
       objectReference: {fileID: 0}
     - target: {fileID: 2569633607375223071, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.28
+      value: -3.23
       objectReference: {fileID: 0}
     - target: {fileID: 2569633607375223071, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
@@ -3904,12 +3904,12 @@ PrefabInstance:
     - target: {fileID: 2569633607375223071, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.16
+      value: 15.34
       objectReference: {fileID: 0}
     - target: {fileID: 2569633607375223071, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.3
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: 2569633607375223071, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
@@ -6220,12 +6220,12 @@ PrefabInstance:
     - target: {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: leftBoundary
-      value: 57
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: rightBoundary
-      value: 52
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 5090806840737998854, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
