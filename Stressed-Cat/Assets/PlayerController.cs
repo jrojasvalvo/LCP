@@ -27,9 +27,12 @@ public class PlayerController : MonoBehaviour
 
     public bool dead;
     public bool canJump = true;
+
+    public Stress_System stress;
     
     void Start()
     {
+        stress = GetComponent<Stress_System>();
         rb = this.gameObject.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         grounded = true;
@@ -57,6 +60,10 @@ public class PlayerController : MonoBehaviour
                     rb.velocity = new Vector2(rb.velocity.x, jump);
                     fastFall = 0f;
                     anim.SetTrigger("jump_start");
+                    if (climb != true)
+                    {
+                        stress.PlayJump();
+                    }
                 }
             } else {
                 if (!grounded){
@@ -152,9 +159,12 @@ public class PlayerController : MonoBehaviour
             climb = true;
             fastFall = 0f;
             grounded = true;
+            stress.StopJump();
+            stress.PlayClimb();
         }
         if (col.gameObject.tag == "Sight") {
             dead = true;
+            stress.PlayBark();
         }
     }
     void OnTriggerExit2D(Collider2D col)
@@ -167,6 +177,7 @@ public class PlayerController : MonoBehaviour
             grounded = false;
             climb = false;
             rb.gravityScale = 1.0f;
+            stress.StopClimb();
         }
         if(col.gameObject.tag == "Ground") {
             grounded = false;

@@ -32,12 +32,28 @@ public class Stress_System : MonoBehaviour
 
     public Image meditationBar;
 
+    private AudioSource donutSound;
+    private AudioSource catScaredSound;
+    private AudioSource meditationSound;
+    private AudioSource catJump;
+    private AudioSource catClimb;
+    private AudioSource dogBark;
+
     void Start()
     {
         meditationBar.fillAmount = 0;
         startled = false;
         all_enemies = enemies.GetComponentsInChildren<Transform>();
         stress_bar.fillAmount = 1;
+
+        AudioSource[] sound = GetComponents<AudioSource>();
+        donutSound = sound[0];
+        catScaredSound = sound[1];
+        meditationSound = sound[2];
+        catJump = sound[3];
+        catClimb = sound[4];
+        dogBark = sound[5];
+
     }
 
     // Update is called once per frame
@@ -52,6 +68,8 @@ public class Stress_System : MonoBehaviour
             meditating = true;
             meditation_start = Time.time;
             gameObject.GetComponent<PlayerController>().canMove = false;
+            meditationSound.Stop();
+            meditationSound.Play();
         }
         float player_x = transform.position.x;
         float player_y = transform.position.y;
@@ -67,6 +85,9 @@ public class Stress_System : MonoBehaviour
             //startled = true;
             //Need this so the screen doesn't constantly shake
             gameObject.GetComponent<PlayerController>().dead = true;
+            catScaredSound.Stop();
+            catScaredSound.Play();
+
         }
         if(meditating) {
             meditationBar.fillAmount = (Time.time - meditation_start) / meditation_time;
@@ -116,6 +137,8 @@ public class Stress_System : MonoBehaviour
         if (collider.tag == "Donut") {
             collider.gameObject.SetActive(false);
             stress_level -= donut_stress_amt;
+            donutSound.Stop();
+            donutSound.Play();
             if(stress_level <= 0) {
                 stress_level = 0;
             }
@@ -130,5 +153,34 @@ public class Stress_System : MonoBehaviour
         if (collider.tag == "Water") {
             inWater = false;
         }
+    }
+
+    public void PlayJump()
+    {
+        catJump.Stop();
+        catJump.Play();
+    }
+
+    public void PlayClimb()
+    {
+        catClimb.Stop();
+        catClimb.Play();
+    }
+
+    public void StopJump()
+    {
+        catJump.Stop();
+    }
+    public void StopClimb()
+    {
+        catClimb.Stop();
+    }
+
+    public void PlayBark()
+    {
+        dogBark.Stop();
+        dogBark.Play();
+        catScaredSound.Stop();
+        catScaredSound.Play();
     }
 }
