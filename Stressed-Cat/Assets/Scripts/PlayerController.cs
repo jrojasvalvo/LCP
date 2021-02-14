@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private bool facingRight;
 
     //Grounded Vars
-    bool grounded = true;
+    bool grounded = false;
     float fastFall = 0f;
     public float fastFallSpeed;
     private bool climb;
@@ -43,13 +43,13 @@ public class PlayerController : MonoBehaviour
         grounded = false;
         climb = false;
         facingRight = true;
-        transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
         //cam = GameObject.Find("Main Camera");
         camera_init = cam.transform.position;
         allObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
         initial_x = transform.position.x;
         initial_y = transform.position.y;
+        //transform.position = new Vector3(initial_x, initial_y, 0);
     }
     IEnumerator jumpAnim()
     {
