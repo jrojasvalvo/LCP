@@ -137,7 +137,13 @@ public class PlayerController : MonoBehaviour
                 allObjects[i].SetActive(true);
             }
         }
+
+        BoundsCheck();
         LoadNext();
+    }
+
+    void BoundsCheck() {
+        if (transform.position.y < -6) dead = true;
     }
 
     void FixedUpdate()
