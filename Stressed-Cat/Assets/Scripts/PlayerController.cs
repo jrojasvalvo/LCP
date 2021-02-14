@@ -151,6 +151,10 @@ public class PlayerController : MonoBehaviour
         {
             anim.ResetTrigger("landing");
         }
+        if (transform.position.y < -8.f)
+        {
+            dead = true;
+        }
     }
 
     //Check if Grounded
