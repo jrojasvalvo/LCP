@@ -78,6 +78,12 @@ public class Stress_System : MonoBehaviour
                 gameObject.GetComponent<PlayerController>().canMove = true;
                 meditationBar.GetComponent<Image>().fillAmount = 0;
             }
+            if(Input.GetKeyUp(KeyCode.E)) { 
+                meditating = false;
+                canMeditate = true;
+                gameObject.GetComponent<PlayerController>().canMove = true;
+                meditationBar.GetComponent<Image>().fillAmount = 0;
+            }
         }
         //Check for proximity to enemies to increase stress level:
         for(int i = 0; i < all_enemies.Length; i++) {
