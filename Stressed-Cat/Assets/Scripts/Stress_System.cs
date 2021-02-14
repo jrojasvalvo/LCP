@@ -57,6 +57,7 @@ public class Stress_System : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+
         stress_bar.fillAmount = 1 - stress_level / max_stress;
         stress_bar.color = new Color32((byte)(stress_level),
                                        (byte)(100 - stress_level),0,255);
@@ -66,8 +67,6 @@ public class Stress_System : MonoBehaviour
             meditating = true;
             meditation_start = Time.time;
             gameObject.GetComponent<PlayerController>().canMove = false;
-            meditationSound.Stop();
-            meditationSound.Play();
         }
         float player_x = transform.position.x;
         float player_y = transform.position.y;
@@ -125,6 +124,14 @@ public class Stress_System : MonoBehaviour
             } else {
                 Time.timeScale -= timeSlowRate;
             }
+        }
+
+        if (Input.GetKeyDown("e"))
+        {
+            meditationSound.Play();
+        } else if (Input.GetKeyUp("e"))
+        {
+            meditationSound.Stop();
         }
     }
 
