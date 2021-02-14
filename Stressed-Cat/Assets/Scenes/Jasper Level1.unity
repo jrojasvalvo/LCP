@@ -3954,7 +3954,7 @@ PrefabInstance:
     - target: {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: leftBoundary
-      value: 14.5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}

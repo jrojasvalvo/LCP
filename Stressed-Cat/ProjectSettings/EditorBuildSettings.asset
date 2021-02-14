@@ -39,6 +39,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Jasper Level1.unity
     guid: 1fbeb39c2b8ce1b4fa6ede5122ecc9f2
   - enabled: 1
+    path: Assets/Scenes/Jasper Level2.unity
+    guid: 55cb9a84162b7ed45ab258aff601511e
+  - enabled: 1
+    path: Assets/Scenes/AnneLevel2.unity
+    guid: d92073351d933054ba07037a70b80f99
+  - enabled: 1
     path: Assets/Scenes/AnneLevel1.unity
     guid: 6b7eff1ba9df79d4297d7e839e063a59
   m_configObjects: {}
