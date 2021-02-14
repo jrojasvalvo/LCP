@@ -41,6 +41,7 @@ public class Stress_System : MonoBehaviour
 
     void Start()
     {
+
         meditationBar.fillAmount = 0;
         startled = false;
         all_enemies = enemies.GetComponentsInChildren<Transform>();

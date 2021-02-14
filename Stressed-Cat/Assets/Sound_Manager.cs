@@ -4,21 +4,17 @@ using UnityEngine;
 
 public class Sound_Manager : MonoBehaviour
 {
-    public AudioSource backgroundMusic;
-    public AudioSource jumpSound;
-    public AudioSource climbSound;
-
-    private Animator anim;
+    private AudioSource backgroundMusic;
+    private AudioSource WinMusic;
 
     // Start is called before the first frame update
     void Start()
     {
         AudioSource[] sound = GetComponents<AudioSource>();
         backgroundMusic = sound[0];
+        WinMusic = sound[1];
         backgroundMusic.Stop();
         backgroundMusic.Play();
-        jumpSound = sound[1];
-        climbSound = sound[2];
     }
 
     // Update is called once per frame
@@ -27,15 +23,10 @@ public class Sound_Manager : MonoBehaviour
         
     }
 
-    public void PlayJump()
+    public void PlayWinMusic()
     {
-        jumpSound.Stop();
-        jumpSound.Play();
-    }
-
-    public void PlayClimb()
-    {
-        climbSound.Stop();
-        climbSound.Play();
+        backgroundMusic.Stop();
+        WinMusic.Stop();
+        WinMusic.Play();
     }
 }
