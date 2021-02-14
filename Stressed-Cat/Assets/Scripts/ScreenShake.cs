@@ -37,7 +37,6 @@ public class ScreenShake : MonoBehaviour
 
     void LateUpdate()
     {
-        //disabling temporarily
         Vector3 pos = player.transform.position;  // Get new player position
         Camera.main.transform.localPosition = initialPosition + pos - player_init; //Use offset
 

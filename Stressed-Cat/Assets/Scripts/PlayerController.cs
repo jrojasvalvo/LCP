@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using System;
@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject cam;
+    public GameObject gameManager;
 
     //Movement
     public float speed;
@@ -33,8 +34,6 @@ public class PlayerController : MonoBehaviour
     public bool canJump = true;
 
     public Stress_System stress;
-
-    public GameObject button;
     
     void Start()
     {
@@ -46,7 +45,7 @@ public class PlayerController : MonoBehaviour
         facingRight = true;
         transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
-        cam = GameObject.Find("Main Camera");
+        //cam = GameObject.Find("Main Camera");
         camera_init = cam.transform.position;
         allObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
         initial_x = transform.position.x;
@@ -122,7 +121,7 @@ public class PlayerController : MonoBehaviour
         if (Time.timeScale == 0) canMove = false;
 
         if(dead) {
-            transform.position = new Vector3(initial_x, initial_y, 0);
+            /*transform.position = new Vector3(initial_x, initial_y, 0);
             grounded = false;
             climb = false;
             this.gameObject.GetComponent<Stress_System>().stress_level = 0;
@@ -132,15 +131,11 @@ public class PlayerController : MonoBehaviour
             this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
             this.gameObject.GetComponent<Stress_System>().canMeditate = true;
 
-            cam.transform.position = camera_init;
+            cam.transform.position = camera_init;*/
 
-            for(int i = 0; i < allObjects.Length; i++)
-            {
-                allObjects[i].SetActive(true);
-                button.SetActive(false);
-            }
+             gameManager.GetComponent<gameManager>().callRestart();
         }
-     //   LoadNext();
+        LoadNext();
     }
 
     void FixedUpdate()
@@ -154,10 +149,10 @@ public class PlayerController : MonoBehaviour
         {
             anim.ResetTrigger("landing");
         }
-        if (transform.position.y < -8f)
+        if (transform.position.y < -8)
         {
             dead = true;
-        }
+        }    
     }
 
     //Check if Grounded
@@ -185,7 +180,6 @@ public class PlayerController : MonoBehaviour
         }
 
         if (col.gameObject.tag == "End" ) {
-            button.SetActive(true);
         }
     }
     void OnTriggerExit2D(Collider2D col)
