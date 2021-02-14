@@ -171,7 +171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 5592453830793680291, guid: 25fb2adc44c41bc4ca18c72f6181e3b8,
+    type: 3}
   speed: 4
   jump: 8
   fastFallSpeed: 0.2
