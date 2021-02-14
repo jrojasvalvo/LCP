@@ -28,7 +28,6 @@ public class Stress_System : MonoBehaviour
     public float water_stress_amt = 0.1f;
     public float timeSlowRate = 0.001f;
     bool slowDown = false;
-    
 
     public Image meditationBar;
 
@@ -53,7 +52,6 @@ public class Stress_System : MonoBehaviour
         catJump = sound[3];
         catClimb = sound[4];
         dogBark = sound[5];
-
     }
 
     // Update is called once per frame

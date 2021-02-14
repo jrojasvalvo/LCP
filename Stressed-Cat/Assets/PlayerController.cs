@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 
     public Vector3 camera_init;
 
+    GameObject[] allObjects;
+
     public bool dead;
     public bool canJump = true;
 
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
         dead = false;
         cam = GameObject.Find("Main Camera");
         camera_init = cam.transform.position;
+        allObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
     }
     IEnumerator jumpAnim()
     {
@@ -124,6 +127,11 @@ public class PlayerController : MonoBehaviour
             this.gameObject.GetComponent<Stress_System>().canMeditate = true;
 
             cam.transform.position = camera_init;
+
+            for(int i = 0; i < allObjects.Length; i++)
+            {
+                allObjects[i].SetActive(true);
+            }
             //cam.GetComponent<ScreenShake>().shake();
         }
     }
