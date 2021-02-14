@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using System;
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
         stress = GetComponent<Stress_System>();
         rb = this.gameObject.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        grounded = true;
+        grounded = false;
         climb = false;
         facingRight = true;
         dead = false;
@@ -131,18 +131,12 @@ public class PlayerController : MonoBehaviour
             this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
             this.gameObject.GetComponent<Stress_System>().canMeditate = true;
 
-            cam.transform.position = camera_init;
+            cam.transform.position = camera_init;*/
 
-            for(int i = 0; i < allObjects.Length; i++)
-            {
-                allObjects[i].SetActive(true);
-            }*/
             gameManager.GetComponent<gameManager>().callRestart();
         }
-
         LoadNext();
     }
-
 
     void FixedUpdate()
     {
@@ -158,7 +152,7 @@ public class PlayerController : MonoBehaviour
         if (transform.position.y < -8)
         {
             dead = true;
-        }
+        }    
     }
 
     //Check if Grounded
