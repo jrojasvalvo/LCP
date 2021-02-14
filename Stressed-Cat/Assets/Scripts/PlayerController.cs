@@ -139,14 +139,10 @@ public class PlayerController : MonoBehaviour
             }*/
             gameManager.GetComponent<gameManager>().callRestart();
         }
-
-        BoundsCheck();
+        
         LoadNext();
     }
 
-    void BoundsCheck() {
-        if (transform.position.y < -6) dead = true;
-    }
 
     void FixedUpdate()
     {
