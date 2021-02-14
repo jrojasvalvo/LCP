@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject cam;
+    public GameObject gameManager;
 
     //Movement
     public float speed;
@@ -44,7 +45,7 @@ public class PlayerController : MonoBehaviour
         facingRight = true;
         transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
-        cam = GameObject.Find("Main Camera");
+        //cam = GameObject.Find("Main Camera");
         camera_init = cam.transform.position;
         allObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
         initial_x = transform.position.x;
@@ -120,7 +121,7 @@ public class PlayerController : MonoBehaviour
         if (Time.timeScale == 0) canMove = false;
 
         if(dead) {
-            transform.position = new Vector3(initial_x, initial_y, 0);
+            /*transform.position = new Vector3(initial_x, initial_y, 0);
             grounded = false;
             climb = false;
             this.gameObject.GetComponent<Stress_System>().stress_level = 0;
@@ -135,10 +136,13 @@ public class PlayerController : MonoBehaviour
             for(int i = 0; i < allObjects.Length; i++)
             {
                 allObjects[i].SetActive(true);
-            }
+            }*/
+            gameManager.GetComponent<gameManager>().callRestart();
         }
+        
         LoadNext();
     }
+
 
     void FixedUpdate()
     {
