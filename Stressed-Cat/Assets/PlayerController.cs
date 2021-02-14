@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    public GameObject camera;
+    public GameObject cam;
 
     //Movement
     public float speed;
@@ -20,10 +20,13 @@ public class PlayerController : MonoBehaviour
     private bool climb;
     public bool canMove = true;
 
-    public float initial_x = -8f;
-    public float initial_y = -3.5f;
+    public float initial_x = -7.13f;
+    public float initial_y = -2.5f;
+
+    public Vector3 camera_init;
 
     public bool dead;
+    public bool canJump = true;
 
     public Stress_System stress;
     
@@ -37,6 +40,8 @@ public class PlayerController : MonoBehaviour
         facingRight = true;
         transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
+        cam = GameObject.Find("Main Camera");
+        camera_init = cam.transform.position;
     }
     IEnumerator jumpAnim()
     {
@@ -50,7 +55,7 @@ public class PlayerController : MonoBehaviour
             //Jumping and Climbing
             if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W))
             {
-                if (grounded)
+                if (grounded && canJump)
                 {
                     rb.velocity = new Vector2(rb.velocity.x, jump);
                     fastFall = 0f;
@@ -65,6 +70,15 @@ public class PlayerController : MonoBehaviour
                     fastFall = fastFallSpeed;
                 }
             }
+            //can't just hold down the jump button and keep jumping
+            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.UpArrow) 
+                || Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.W)) {
+                    canJump = true;
+            }
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) 
+                || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)) {
+                    canJump = false;
+            }
 
             if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             {
@@ -76,23 +90,23 @@ public class PlayerController : MonoBehaviour
 
             moveVelocity = 0;
 
-        //Left Right Movement
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-        {
-            moveVelocity = -speed;
-            if (facingRight)
+            //Left Right Movement
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
-                reverseImage();
+                moveVelocity = -speed;
+                if (facingRight)
+                {
+                    reverseImage();
+                }
             }
-        }
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            moveVelocity = speed;
-            if (!facingRight)
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             {
-                reverseImage();
+                moveVelocity = speed;
+                if (!facingRight)
+                {
+                    reverseImage();
+                }
             }
-        }
 
             rb.velocity = new Vector2(moveVelocity, rb.velocity.y - fastFall);
         }
@@ -108,8 +122,9 @@ public class PlayerController : MonoBehaviour
             this.gameObject.GetComponent<Stress_System>().meditating = false;
             this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
             this.gameObject.GetComponent<Stress_System>().canMeditate = true;
-                
-            camera.GetComponent<ScreenShake>().shake();
+
+            cam.transform.position = camera_init;
+            //cam.GetComponent<ScreenShake>().shake();
         }
     }
 
@@ -192,5 +207,9 @@ public class PlayerController : MonoBehaviour
         Vector2 scale = rb.transform.localScale;
         scale.x *= -1;
         rb.transform.localScale = scale;
+        //do not flip camera
+        Vector2 cscale = cam.transform.localScale;
+        cscale.x *= -1;
+        //cam.transform.localScale = cscale; 
     }
 }

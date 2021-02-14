@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-02-13T19:25:02.807-05:00
+  initializedAtString: 2021-02-13T19:01:30.218-05:00
+  entries:
+  - path: .gitignore
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\.gitignore
+    projectPath: ..\.gitignore
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Cat assets\Cat 3.controller
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\Cat 3.controller
+    projectPath: Assets\Cat assets\Cat 3.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Cat assets\cat_idle.anim
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_idle.anim
+    projectPath: Assets\Cat assets\cat_idle.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_idle.anim.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_idle.anim.meta
+    projectPath: Assets\Cat assets\cat_idle.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_idle.png
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_idle.png
+    projectPath: Assets\Cat assets\cat_idle.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_idle.png.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_idle.png.meta
+    projectPath: Assets\Cat assets\cat_idle.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_jump.png
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_jump.png
+    projectPath: Assets\Cat assets\cat_jump.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_jump.png.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_jump.png.meta
+    projectPath: Assets\Cat assets\cat_jump.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_startled.anim
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_startled.anim
+    projectPath: Assets\Cat assets\cat_startled.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_startled.anim.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_startled.anim.meta
+    projectPath: Assets\Cat assets\cat_startled.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_startled.png
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_startled.png
+    projectPath: Assets\Cat assets\cat_startled.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Cat assets\cat_startled.png.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+      assets\cat_startled.png.meta
+    projectPath: Assets\Cat assets\cat_startled.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\EnemyController.cs
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+    projectPath: Assets\EnemyController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\IntroScene.unity
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\IntroScene.unity
+    projectPath: Assets\IntroScene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\IntroScene.unity.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\IntroScene.unity.meta
+    projectPath: Assets\IntroScene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Logo.cs
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Logo.cs
+    projectPath: Assets\Logo.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Logo.cs.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Logo.cs.meta
+    projectPath: Assets\Logo.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Play.cs
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Play.cs
+    projectPath: Assets\Play.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Play.cs.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Play.cs.meta
+    projectPath: Assets\Play.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\PlayerController.cs
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+    projectPath: Assets\PlayerController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Prefabs\Cat.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat.prefab
+    projectPath: Assets\Prefabs\Cat.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Bed.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Bed.prefab
+    projectPath: Assets\Prefabs\Checkpoints\Bed.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Bed.prefab.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Bed.prefab.meta
+    projectPath: Assets\Prefabs\Checkpoints\Bed.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Cat Tree.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Cat
+      Tree.prefab
+    projectPath: Assets\Prefabs\Checkpoints\Cat Tree.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Cat Tree.prefab.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Cat
+      Tree.prefab.meta
+    projectPath: Assets\Prefabs\Checkpoints\Cat Tree.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Litterbox.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Litterbox.prefab
+    projectPath: Assets\Prefabs\Checkpoints\Litterbox.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Litterbox.prefab.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Litterbox.prefab.meta
+    projectPath: Assets\Prefabs\Checkpoints\Litterbox.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Scratching Post.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Scratching
+      Post.prefab
+    projectPath: Assets\Prefabs\Checkpoints\Scratching Post.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Checkpoints\Scratching Post.prefab.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Checkpoints\Scratching
+      Post.prefab.meta
+    projectPath: Assets\Prefabs\Checkpoints\Scratching Post.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Prefabs\Dog 2.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog
+      2.prefab
+    projectPath: Assets\Prefabs\Dog 2.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Prefabs\Dog.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog.prefab
+    projectPath: Assets\Prefabs\Dog.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Prefabs\Main Camera.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Main
+      Camera.prefab
+    projectPath: Assets\Prefabs\Main Camera.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Prefabs\Platform.prefab
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Platform.prefab
+    projectPath: Assets\Prefabs\Platform.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\Scenes\IntroScene.unity
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\IntroScene.unity
+    projectPath: Assets\Scenes\IntroScene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Scenes\IntroScene.unity.meta
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\IntroScene.unity.meta
+    projectPath: Assets\Scenes\IntroScene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Stressed-Cat\Assets\Scenes\Level2.unity
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level2.unity
+    projectPath: Assets\Scenes\Level2.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\Assets\ScreenShake.cs
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\ScreenShake.cs
+    projectPath: Assets\ScreenShake.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\ProjectSettings\Physics2DSettings.asset
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\Physics2DSettings.asset
+    projectPath: ProjectSettings\Physics2DSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Stressed-Cat\ProjectSettings\TagManager.asset
+    fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3

@@ -1,0 +1,4115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2021-02-13T19:20:46.962-05:00
+  initializedAtString: 2021-02-13T19:01:38.148-05:00
+  log:
+  - commitID: abed3fdec532680210066d7222e9d7af2b365650
+    mergeA: 
+    mergeB: 
+    authorName: levekyle
+    authorEmail: kleve@andrew.cmu.edu
+    commitEmail: kleve@andrew.cmu.edu
+    commitName: levekyle
+    summary: More sounds
+    description: 
+    timeString: 2021-02-13T18:49:26.000-05:00
+    commitTimeString: 2021-02-13T18:49:26.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat.prefab
+      projectPath: Assets\Prefabs\Cat.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 11b4a8aa7908c756c63e6dda52a83f5cee246dd2
+    mergeA: 
+    mergeB: 
+    authorName: levekyle
+    authorEmail: kleve@andrew.cmu.edu
+    commitEmail: kleve@andrew.cmu.edu
+    commitName: levekyle
+    summary: Lots of Sounds
+    description: 
+    timeString: 2021-02-13T18:41:36.000-05:00
+    commitTimeString: 2021-02-13T18:41:36.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat.prefab
+      projectPath: Assets\Prefabs\Cat.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound.meta
+      projectPath: Assets\Sound.meta
+      originalPath: Stressed-Cat\Assets\Donuts.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Alarm.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Alarm.wav
+      projectPath: Assets\Sound\Alarm.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Alarm.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Alarm.wav.meta
+      projectPath: Assets\Sound\Alarm.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Blender.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Blender.wav
+      projectPath: Assets\Sound\Blender.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Blender.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Blender.wav.meta
+      projectPath: Assets\Sound\Blender.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Bucket Drop.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Bucket
+        Drop.wav
+      projectPath: Assets\Sound\Bucket Drop.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Bucket Drop.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Bucket
+        Drop.wav.meta
+      projectPath: Assets\Sound\Bucket Drop.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Button.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Button.wav
+      projectPath: Assets\Sound\Button.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Button.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Button.wav.meta
+      projectPath: Assets\Sound\Button.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Cat Jump.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Cat
+        Jump.wav
+      projectPath: Assets\Sound\Cat Jump.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Cat Jump.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Cat
+        Jump.wav.meta
+      projectPath: Assets\Sound\Cat Jump.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Cat Meow.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Cat
+        Meow.wav
+      projectPath: Assets\Sound\Cat Meow.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Cat Meow.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Cat
+        Meow.wav.meta
+      projectPath: Assets\Sound\Cat Meow.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Cat Purr (Climb Sound).wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Cat
+        Purr (Climb Sound).wav
+      projectPath: Assets\Sound\Cat Purr (Climb Sound).wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Cat Purr (Climb Sound).wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Cat
+        Purr (Climb Sound).wav.meta
+      projectPath: Assets\Sound\Cat Purr (Climb Sound).wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Dog Bark.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Dog
+        Bark.wav
+      projectPath: Assets\Sound\Dog Bark.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Dog Bark.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Dog
+        Bark.wav.meta
+      projectPath: Assets\Sound\Dog Bark.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Donut.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Donut.wav
+      projectPath: Assets\Sound\Donut.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Donut.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Donut.wav.meta
+      projectPath: Assets\Sound\Donut.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Meditation Music.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Meditation
+        Music.wav
+      projectPath: Assets\Sound\Meditation Music.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Meditation Music.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Meditation
+        Music.wav.meta
+      projectPath: Assets\Sound\Meditation Music.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Rain.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Rain.wav
+      projectPath: Assets\Sound\Rain.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Rain.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Rain.wav.meta
+      projectPath: Assets\Sound\Rain.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Sneaky Cat Lose Music.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Sneaky
+        Cat Lose Music.wav
+      projectPath: Assets\Sound\Sneaky Cat Lose Music.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Sneaky Cat Lose Music.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Sneaky
+        Cat Lose Music.wav.meta
+      projectPath: Assets\Sound\Sneaky Cat Lose Music.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Sneaky Cat Win Music.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Sneaky
+        Cat Win Music.wav
+      projectPath: Assets\Sound\Sneaky Cat Win Music.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Sneaky Cat Win Music.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Sneaky
+        Cat Win Music.wav.meta
+      projectPath: Assets\Sound\Sneaky Cat Win Music.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Sneaky Cat.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Sneaky
+        Cat.wav
+      projectPath: Assets\Sound\Sneaky Cat.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Sneaky Cat.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Sneaky
+        Cat.wav.meta
+      projectPath: Assets\Sound\Sneaky Cat.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Thunder.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Thunder.wav
+      projectPath: Assets\Sound\Thunder.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Thunder.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Thunder.wav.meta
+      projectPath: Assets\Sound\Thunder.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Vacuum.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Vacuum.wav
+      projectPath: Assets\Sound\Vacuum.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Vacuum.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Vacuum.wav.meta
+      projectPath: Assets\Sound\Vacuum.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Water Drip.wav
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Water
+        Drip.wav
+      projectPath: Assets\Sound\Water Drip.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound\Water Drip.wav.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound\Water
+        Drip.wav.meta
+      projectPath: Assets\Sound\Water Drip.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound_Manager.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound_Manager.cs
+      projectPath: Assets\Sound_Manager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Sound_Manager.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Sound_Manager.cs.meta
+      projectPath: Assets\Sound_Manager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: e9615c2918a90d782ce27f6990cc430cf431811f
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: More prefabs
+    description: 
+    timeString: 2021-02-13T16:41:56.000-05:00
+    commitTimeString: 2021-02-13T16:41:56.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Prefabs\Bed.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Bed.prefab
+      projectPath: Assets\Prefabs\Bed.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Bed.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Bed.prefab.meta
+      projectPath: Assets\Prefabs\Bed.prefab.meta
+      originalPath: Stressed-Cat\Assets\Prefabs\End.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat Tree.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat
+        Tree.prefab
+      projectPath: Assets\Prefabs\Cat Tree.prefab
+      originalPath: Stressed-Cat\Assets\Prefabs\End.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat Tree.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat
+        Tree.prefab.meta
+      projectPath: Assets\Prefabs\Cat Tree.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Finish Particles.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Finish
+        Particles.prefab
+      projectPath: Assets\Prefabs\Finish Particles.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Litterbox.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Litterbox.prefab
+      projectPath: Assets\Prefabs\Litterbox.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Litterbox.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Litterbox.prefab.meta
+      projectPath: Assets\Prefabs\Litterbox.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Main Camera.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Main
+        Camera.prefab
+      projectPath: Assets\Prefabs\Main Camera.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Scratching Post.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Scratching
+        Post.prefab
+      projectPath: Assets\Prefabs\Scratching Post.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Scratching Post.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Scratching
+        Post.prefab.meta
+      projectPath: Assets\Prefabs\Scratching Post.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a4078e46c2773293ad0a135ceede352f5b4a4b2d
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: didn't commit all of the changes oops
+    description: 
+    timeString: 2021-02-13T16:25:05.000-05:00
+    commitTimeString: 2021-02-13T16:25:05.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Prefabs\Dog 2.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog
+        2.prefab
+      projectPath: Assets\Prefabs\Dog 2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Dog 2.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog
+        2.prefab.meta
+      projectPath: Assets\Prefabs\Dog 2.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 97354f1ff9cb4913f46f6f6ca8594e9078f5e975
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: updated some prefabs
+    description: 
+    timeString: 2021-02-13T16:24:37.000-05:00
+    commitTimeString: 2021-02-13T16:24:37.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Prefabs\Dog.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog.prefab
+      projectPath: Assets\Prefabs\Dog.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Stress Bar.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Stress
+        Bar.prefab
+      projectPath: Assets\Prefabs\Stress Bar.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\ladder.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\ladder.prefab
+      projectPath: Assets\Prefabs\ladder.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: c0d68dfeaab53b715fc1c910b7cb40d34d6c52e9
+    mergeA: bc72adede9e3c4a3be6140317fc27550c0bba4a6
+    mergeB: ea394122256fab7b92ed3852058b4e44f4ea72cb
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Merge branch 'TestBranch' of https://github.com/jrojasvalvo/LCP into
+      TestBranch
+    description: 
+    timeString: 2021-02-13T16:12:52.000-05:00
+    commitTimeString: 2021-02-13T16:12:52.000-05:00
+    changes: []
+  - commitID: bc72adede9e3c4a3be6140317fc27550c0bba4a6
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: switched some assets to prefabs
+    description: 
+    timeString: 2021-02-13T16:12:45.000-05:00
+    commitTimeString: 2021-02-13T16:12:45.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Donuts.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts.meta
+      projectPath: Assets\Donuts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Donut.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Donut.prefab
+      projectPath: Assets\Prefabs\Donut.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ea394122256fab7b92ed3852058b4e44f4ea72cb
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Updated UI
+    description: 
+    timeString: 2021-02-13T16:09:52.000-05:00
+    commitTimeString: 2021-02-13T16:09:52.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Ladder Asset.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Ladder
+        Asset.png
+      projectPath: Assets\Ladder Asset.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Ladder Asset.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Ladder
+        Asset.png.meta
+      projectPath: Assets\Ladder Asset.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress Bar.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress
+        Bar.png
+      projectPath: Assets\Stress Bar.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress Bar.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress
+        Bar.png.meta
+      projectPath: Assets\Stress Bar.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2b32b24017a55779ae17a20b8c233aac07ad81b5
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Combined animations with UI
+    description: 
+    timeString: 2021-02-13T15:54:40.000-05:00
+    commitTimeString: 2021-02-13T15:54:40.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Donuts.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts.meta
+      projectPath: Assets\Donuts.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: 4929900c083eda8b4f1333a1952634f348e32601
+    mergeA: fbbd78fc3dd1331a2d4bb11a5c9978d88c2d2d43
+    mergeB: 7513a01e8aad02a5c028f6997d72d37e8ad0ae26
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge branch 'Anne-Testing' into TestBranch
+    description: 
+    timeString: 2021-02-13T15:53:21.000-05:00
+    commitTimeString: 2021-02-13T15:53:21.000-05:00
+    changes: []
+  - commitID: fbbd78fc3dd1331a2d4bb11a5c9978d88c2d2d43
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Update Level1.unity
+    description: 
+    timeString: 2021-02-13T15:50:22.000-05:00
+    commitTimeString: 2021-02-13T15:50:22.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 7513a01e8aad02a5c028f6997d72d37e8ad0ae26
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: animations
+    description: 
+    timeString: 2021-02-13T15:41:09.000-05:00
+    commitTimeString: 2021-02-13T15:41:09.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 9187b6376f72ca954d74d20914da0f2a2a2cd46f
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: UI Changes
+    description: 
+    timeString: 2021-02-13T15:37:31.000-05:00
+    commitTimeString: 2021-02-13T15:37:31.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Circle.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Circle.png
+      projectPath: Assets\Circle.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Circle.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Circle.png.meta
+      projectPath: Assets\Circle.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\D O N U T.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\D
+        O N U T.png
+      projectPath: Assets\D O N U T.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\D O N U T.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\D
+        O N U T.png.meta
+      projectPath: Assets\D O N U T.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Square.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Square.png
+      projectPath: Assets\Square.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Square.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Square.png.meta
+      projectPath: Assets\Square.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: dfe91ceb3a3dbc47387a3571bab861223361890e
+    mergeA: 9bc4d47ad58a868c4528ff8a40d9512d6efbfa23
+    mergeB: 328ea533d630cca62b94f0da107934e2076b135b
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: animations, small dog
+    description: 
+    timeString: 2021-02-13T15:36:39.000-05:00
+    commitTimeString: 2021-02-13T15:36:39.000-05:00
+    changes: []
+  - commitID: 9bc4d47ad58a868c4528ff8a40d9512d6efbfa23
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: animations
+    description: 
+    timeString: 2021-02-13T14:41:59.000-05:00
+    commitTimeString: 2021-02-13T14:41:59.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat Walk Sprites (transparent).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        Walk Sprites (transparent).png.meta
+      projectPath: Assets\Cat Walk Sprites (transparent).png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat Walk Sprites.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        Walk Sprites.png.meta
+      projectPath: Assets\Cat Walk Sprites.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets.meta
+      projectPath: Assets\Cat assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat 1.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat 1.controller
+      projectPath: Assets\Cat assets\Cat 1.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat 1.controller.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat 1.controller.meta
+      projectPath: Assets\Cat assets\Cat 1.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat 2.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat 2.controller
+      projectPath: Assets\Cat assets\Cat 2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat 2.controller.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat 2.controller.meta
+      projectPath: Assets\Cat assets\Cat 2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat 3.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat 3.controller
+      projectPath: Assets\Cat assets\Cat 3.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat 3.controller.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat 3.controller.meta
+      projectPath: Assets\Cat assets\Cat 3.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(sitting).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(sitting).png.meta
+      projectPath: Assets\Cat assets\Cat-Asset-(sitting).png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(standing).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(standing).png.meta
+      projectPath: Assets\Cat assets\Cat-Asset-(standing).png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(startled).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(startled).png.meta
+      projectPath: Assets\Cat assets\Cat-Asset-(startled).png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat.controller
+      projectPath: Assets\Cat assets\Cat.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat.controller.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat.controller.meta
+      projectPath: Assets\Cat assets\Cat.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_fall.anim
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_fall.anim
+      projectPath: Assets\Cat assets\cat_fall.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_fall.anim.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_fall.anim.meta
+      projectPath: Assets\Cat assets\cat_fall.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_jump.anim
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_jump.anim
+      projectPath: Assets\Cat assets\cat_jump.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_jump.anim.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_jump.anim.meta
+      projectPath: Assets\Cat assets\cat_jump.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_jumpsprites_new.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_jumpsprites_new.png
+      projectPath: Assets\Cat assets\cat_jumpsprites_new.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_jumpsprites_new.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_jumpsprites_new.png.meta
+      projectPath: Assets\Cat assets\cat_jumpsprites_new.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_jumpsprites_transparent.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_jumpsprites_transparent.png
+      projectPath: Assets\Cat assets\cat_jumpsprites_transparent.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_jumpsprites_transparent.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_jumpsprites_transparent.png.meta
+      projectPath: Assets\Cat assets\cat_jumpsprites_transparent.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_land.anim
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_land.anim
+      projectPath: Assets\Cat assets\cat_land.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_land.anim.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_land.anim.meta
+      projectPath: Assets\Cat assets\cat_land.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_up.anim
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_up.anim
+      projectPath: Assets\Cat assets\cat_up.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_up.anim.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_up.anim.meta
+      projectPath: Assets\Cat assets\cat_up.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_walk.anim
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_walk.anim
+      projectPath: Assets\Cat assets\cat_walk.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_walk.anim.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_walk.anim.meta
+      projectPath: Assets\Cat assets\cat_walk.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_walksprites_transparent.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_walksprites_transparent.png
+      projectPath: Assets\Cat assets\cat_walksprites_transparent.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\cat_walksprites_transparent.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\cat_walksprites_transparent.png.meta
+      projectPath: Assets\Cat assets\cat_walksprites_transparent.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.controller
+      projectPath: Assets\Cat.controller
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints.meta
+      projectPath: Assets\Checkpoints.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints\Bed.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Bed.png.meta
+      projectPath: Assets\Checkpoints\Bed.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints\Cat Tree.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Cat
+        Tree.png.meta
+      projectPath: Assets\Checkpoints\Cat Tree.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints\Litterbox.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Litterbox.png.meta
+      projectPath: Assets\Checkpoints\Litterbox.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints\Scratching Post.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Scratching
+        Post.png.meta
+      projectPath: Assets\Checkpoints\Scratching Post.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets.meta
+      projectPath: Assets\Dog assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\Brown dog Standing.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\Brown dog Standing.png.meta
+      projectPath: Assets\Dog assets\Brown dog Standing.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\Brown dog sitting.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\Brown dog sitting.png.meta
+      projectPath: Assets\Dog assets\Brown dog sitting.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\white dog sitting.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\white dog sitting.png.meta
+      projectPath: Assets\Dog assets\white dog sitting.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\white dog standing.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\white dog standing.png.meta
+      projectPath: Assets\Dog assets\white dog standing.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts.meta
+      projectPath: Assets\Donuts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts\D O N U T 2.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts\D
+        O N U T 2.png.meta
+      projectPath: Assets\Donuts\D O N U T 2.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts\D O N U T.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts\D
+        O N U T.png.meta
+      projectPath: Assets\Donuts\D O N U T.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat.prefab
+      projectPath: Assets\Prefabs\Cat.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 328ea533d630cca62b94f0da107934e2076b135b
+    mergeA: e94cf3484c6ab15bca99d56cfcc55db39f8655cd
+    mergeB: 876ffae8a41aee912f006cb6bc2139e649544b94
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge branch 'Levels' into Julian-Testing
+    description: 
+    timeString: 2021-02-13T14:28:21.000-05:00
+    commitTimeString: 2021-02-13T14:28:21.000-05:00
+    changes: []
+  - commitID: e94cf3484c6ab15bca99d56cfcc55db39f8655cd
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: WebGL fixes
+    description: 
+    timeString: 2021-02-13T14:26:42.000-05:00
+    commitTimeString: 2021-02-13T14:26:42.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\New SpriteShapeProfile.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\New
+        SpriteShapeProfile.asset
+      projectPath: Assets\New SpriteShapeProfile.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\New SpriteShapeProfile.asset.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\New
+        SpriteShapeProfile.asset.meta
+      projectPath: Assets\New SpriteShapeProfile.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 91aafe2fb12ade6babbea588db22e6fb38f849d0
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Fixed vision cone collider
+    description: 
+    timeString: 2021-02-13T13:17:54.000-05:00
+    commitTimeString: 2021-02-13T13:17:54.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: c9e164ff711a9a45fcab654b745e0408ce827b5d
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Added Vision Cone
+    description: 
+    timeString: 2021-02-13T13:11:14.000-05:00
+    commitTimeString: 2021-02-13T13:11:14.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\EnemyController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+      projectPath: Assets\EnemyController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a190e1526399ed1f041bbff7a7330f8a51e7e62f
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Fixed leaving ladder on ground not grounded
+    description: 
+    timeString: 2021-02-13T12:52:57.000-05:00
+    commitTimeString: 2021-02-13T12:52:57.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 57dfb5274b5349b60d9d37dfa4a26beebe71f977
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Being Spotted sends cat back to beginning
+    description: 
+    timeString: 2021-02-13T12:47:17.000-05:00
+    commitTimeString: 2021-02-13T12:47:17.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\EnemyController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+      projectPath: Assets\EnemyController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 876ffae8a41aee912f006cb6bc2139e649544b94
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Added screen shake on death, increased rate of stress, player doesn't
+      get stuck on side of wall anymore
+    description: 
+    timeString: 2021-02-13T12:38:26.000-05:00
+    commitTimeString: 2021-02-13T12:38:26.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat.prefab
+      projectPath: Assets\Prefabs\Cat.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Dog.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog.prefab
+      projectPath: Assets\Prefabs\Dog.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\End.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\End.prefab
+      projectPath: Assets\Prefabs\End.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\End.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\End.prefab.meta
+      projectPath: Assets\Prefabs\End.prefab.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Main Camera.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Main
+        Camera.prefab
+      projectPath: Assets\Prefabs\Main Camera.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Main Camera.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Main
+        Camera.prefab.meta
+      projectPath: Assets\Prefabs\Main Camera.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Stress Bar.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Stress
+        Bar.prefab
+      projectPath: Assets\Prefabs\Stress Bar.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\ladder.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\ladder.prefab
+      projectPath: Assets\Prefabs\ladder.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\ladder.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\ladder.prefab.meta
+      projectPath: Assets\Prefabs\ladder.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level2.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\ScreenShake.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\ScreenShake.cs
+      projectPath: Assets\ScreenShake.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\ScreenShake.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\ScreenShake.cs.meta
+      projectPath: Assets\ScreenShake.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Slippery.physicsMaterial2D
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Slippery.physicsMaterial2D
+      projectPath: Assets\Slippery.physicsMaterial2D
+      originalPath: Stressed-Cat\Assets\New Physics Material 2D.physicsMaterial2D
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Slippery.physicsMaterial2D.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Slippery.physicsMaterial2D.meta
+      projectPath: Assets\Slippery.physicsMaterial2D.meta
+      originalPath: Stressed-Cat\Assets\New Physics Material 2D.physicsMaterial2D.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 159413f88acb98e2e4ee5526f776e41144f6ec0e
+    mergeA: 8c116397ca3229c51ae2ad4b29ccaf61f9f4bbd4
+    mergeB: c34daa4004623b31b21e4f36aec0350f7f2310e7
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: Merge branch 'Julian-Testing' of https://github.com/jrojasvalvo/LCP
+      into Julian-Testing
+    description: 
+    timeString: 2021-02-13T12:30:47.000-05:00
+    commitTimeString: 2021-02-13T12:30:47.000-05:00
+    changes: []
+  - commitID: ff421b304d312a00a4c57a16e1abd9131b0fb02d
+    mergeA: eda1062f9ecf0a4065608e67f5f7f308c479a312
+    mergeB: 2b9bd0baabdfb77d6765a90a59e6e08c59b06463
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge branch 'Movement' into Julian-Testing
+    description: 
+    timeString: 2021-02-13T12:17:13.000-05:00
+    commitTimeString: 2021-02-13T12:17:13.000-05:00
+    changes: []
+  - commitID: 2b9bd0baabdfb77d6765a90a59e6e08c59b06463
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: cat sprite animation
+    description: 
+    timeString: 2021-02-13T12:12:41.000-05:00
+    commitTimeString: 2021-02-13T12:12:41.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\cat_walksprites_transparent.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\cat_walksprites_transparent.png
+      projectPath: Assets\cat_walksprites_transparent.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\cat_walksprites_transparent.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\cat_walksprites_transparent.png.meta
+      projectPath: Assets\cat_walksprites_transparent.png.meta
+      originalPath: Stressed-Cat\Assets\player.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\player.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\player.png
+      projectPath: Assets\player.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: eda1062f9ecf0a4065608e67f5f7f308c479a312
+    mergeA: c34daa4004623b31b21e4f36aec0350f7f2310e7
+    mergeB: ad58d0ab84b73dabdb24cf8c0f5291a61e309397
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge remote-tracking branch 'origin/Movement' into Julian-Testing
+    description: 
+    timeString: 2021-02-13T12:08:45.000-05:00
+    commitTimeString: 2021-02-13T12:08:45.000-05:00
+    changes: []
+  - commitID: c34daa4004623b31b21e4f36aec0350f7f2310e7
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Fixed ladder sinking
+    description: 
+    timeString: 2021-02-13T12:07:01.000-05:00
+    commitTimeString: 2021-02-13T12:07:01.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets.meta
+      projectPath: Assets\Cat assets.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets.meta
+      projectPath: Assets\Dog assets.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts.meta
+      projectPath: Assets\Donuts.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\EnemyController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+      projectPath: Assets\EnemyController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerAnimation.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerAnimation.controller
+      projectPath: Assets\PlayerAnimation.controller
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 8c116397ca3229c51ae2ad4b29ccaf61f9f4bbd4
+    mergeA: 
+    mergeB: 
+    authorName: Ameer-J
+    authorEmail: 78869846+Ameer-J@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: 
+    timeString: 2021-02-13T12:01:04.000-05:00
+    commitTimeString: 2021-02-13T12:01:04.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat Walk Sprites (transparent).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        Walk Sprites (transparent).png
+      projectPath: Assets\Cat Walk Sprites (transparent).png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: ad58d0ab84b73dabdb24cf8c0f5291a61e309397
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: fixed enemy turning bug
+    description: 
+    timeString: 2021-02-13T11:49:05.000-05:00
+    commitTimeString: 2021-02-13T11:49:05.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\EnemyController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+      projectPath: Assets\EnemyController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 13d5cd39385f74b5cb24414e5eb8238067f1574a
+    mergeA: 
+    mergeB: 
+    authorName: Ameer-J
+    authorEmail: 78869846+Ameer-J@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: 
+    timeString: 2021-02-13T11:47:42.000-05:00
+    commitTimeString: 2021-02-13T11:47:42.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat Walk Sprites.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        Walk Sprites.png
+      projectPath: Assets\Cat Walk Sprites.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 3b4ebfd7c2b2091e3c76385aea5cbc34083c9b73
+    mergeA: c117fdae82a4bac85cd903a6f82a30f305501c73
+    mergeB: 39f2a940a392c2553585452b4b4baa46d2013b9f
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge remote-tracking branch 'origin/Movement' into Julian-Testing
+    description: 
+    timeString: 2021-02-13T11:47:38.000-05:00
+    commitTimeString: 2021-02-13T11:47:38.000-05:00
+    changes: []
+  - commitID: c117fdae82a4bac85cd903a6f82a30f305501c73
+    mergeA: aaf65754cb4e99a979ca259446a5e1116b4702f9
+    mergeB: 3a23784e09ea994ef963e2ce493409cfe6282fc6
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge branch 'Levels' into Julian-Testing
+    description: 
+    timeString: 2021-02-13T11:46:21.000-05:00
+    commitTimeString: 2021-02-13T11:46:21.000-05:00
+    changes: []
+  - commitID: 39f2a940a392c2553585452b4b4baa46d2013b9f
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: animation, turning
+    description: 
+    timeString: 2021-02-13T11:45:03.000-05:00
+    commitTimeString: 2021-02-13T11:45:03.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.controller
+      projectPath: Assets\Cat.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.controller.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.controller.meta
+      projectPath: Assets\Cat.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.prefab
+      projectPath: Assets\Cat.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.prefab.meta
+      projectPath: Assets\Cat.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\EnemyController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+      projectPath: Assets\EnemyController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerAnimation.controller
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerAnimation.controller
+      projectPath: Assets\PlayerAnimation.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerAnimation.controller.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerAnimation.controller.meta
+      projectPath: Assets\PlayerAnimation.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Temp.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Temp.unity
+      projectPath: Assets\Temp.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Temp.unity.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Temp.unity.meta
+      projectPath: Assets\Temp.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\cat_walk.anim
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\cat_walk.anim
+      projectPath: Assets\cat_walk.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\cat_walk.anim.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\cat_walk.anim.meta
+      projectPath: Assets\cat_walk.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\player.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\player.png
+      projectPath: Assets\player.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\player.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\player.png.meta
+      projectPath: Assets\player.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 23cb3a6608e800d22c1ef10f55a7bd46abf87a04
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Doesn't stick to walls anymore
+    description: 
+    timeString: 2021-02-13T11:43:52.000-05:00
+    commitTimeString: 2021-02-13T11:43:52.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\New Physics Material 2D.physicsMaterial2D
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\New
+        Physics Material 2D.physicsMaterial2D
+      projectPath: Assets\New Physics Material 2D.physicsMaterial2D
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\New Physics Material 2D.physicsMaterial2D.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\New
+        Physics Material 2D.physicsMaterial2D.meta
+      projectPath: Assets\New Physics Material 2D.physicsMaterial2D.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Wall.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Wall.prefab
+      projectPath: Assets\Prefabs\Wall.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Wall.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Wall.prefab.meta
+      projectPath: Assets\Prefabs\Wall.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: aaf65754cb4e99a979ca259446a5e1116b4702f9
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: First
+    description: 
+    timeString: 2021-02-13T11:43:23.000-05:00
+    commitTimeString: 2021-02-13T11:43:23.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 3a23784e09ea994ef963e2ce493409cfe6282fc6
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Can high/low jump
+    description: 
+    timeString: 2021-02-13T11:38:14.000-05:00
+    commitTimeString: 2021-02-13T11:38:14.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Donuts.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts.meta
+      projectPath: Assets\Donuts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Stress Bar.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Stress
+        Bar.prefab
+      projectPath: Assets\Prefabs\Stress Bar.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Stress Bar.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Stress
+        Bar.prefab.meta
+      projectPath: Assets\Prefabs\Stress Bar.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 6d598f475ddb7fea659fadd302247b50477e959e
+    mergeA: ca33e050afa0066fb76d499fcb28afeb2d50149c
+    mergeB: 5e41989a9de0455bf5869675e37b8ca5ac0eb7a3
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Merge branch 'Levels' of https://github.com/jrojasvalvo/LCP into Levels
+    description: 
+    timeString: 2021-02-13T11:26:39.000-05:00
+    commitTimeString: 2021-02-13T11:26:39.000-05:00
+    changes: []
+  - commitID: ca33e050afa0066fb76d499fcb28afeb2d50149c
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Particle effects and slow down when we hit the end
+    description: 
+    timeString: 2021-02-13T11:26:12.000-05:00
+    commitTimeString: 2021-02-13T11:26:12.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Prefabs\End.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\End.prefab
+      projectPath: Assets\Prefabs\End.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\End.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\End.prefab.meta
+      projectPath: Assets\Prefabs\End.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Finish Particles.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Finish
+        Particles.prefab
+      projectPath: Assets\Prefabs\Finish Particles.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Finish Particles.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Finish
+        Particles.prefab.meta
+      projectPath: Assets\Prefabs\Finish Particles.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 5e41989a9de0455bf5869675e37b8ca5ac0eb7a3
+    mergeA: 7863159af40ffd0a2cef67b7cda67817fe7b1216
+    mergeB: 92ba9c617c23d800d3a9124c72e5ef1d7592cecc
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge branch 'Levels' of https://github.com/jrojasvalvo/LCP into Levels
+    description: 
+    timeString: 2021-02-13T11:17:15.000-05:00
+    commitTimeString: 2021-02-13T11:17:15.000-05:00
+    changes: []
+  - commitID: 7863159af40ffd0a2cef67b7cda67817fe7b1216
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Levels and Movement merge + fixed falling thru ladder
+    description: 
+    timeString: 2021-02-13T11:15:14.000-05:00
+    commitTimeString: 2021-02-13T11:15:14.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets.meta
+      projectPath: Assets\Cat assets.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets.meta
+      projectPath: Assets\Dog assets.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts.meta
+      projectPath: Assets\Donuts.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a4a65a86e995d98c6e38dd37564f2af435777572
+    mergeA: 
+    mergeB: 
+    authorName: Ameer-J
+    authorEmail: 78869846+Ameer-J@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: 
+    timeString: 2021-02-13T11:14:56.000-05:00
+    commitTimeString: 2021-02-13T11:14:56.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Checkpoints\Bed.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Bed.png
+      projectPath: Assets\Checkpoints\Bed.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints\Cat Tree.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Cat
+        Tree.png
+      projectPath: Assets\Checkpoints\Cat Tree.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints\Litterbox.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Litterbox.png
+      projectPath: Assets\Checkpoints\Litterbox.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Checkpoints\Scratching Post.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Checkpoints\Scratching
+        Post.png
+      projectPath: Assets\Checkpoints\Scratching Post.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 83729398ce5bd7f58960a885c8930ed0dc0c7ecb
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Donuts are collected based on collision, not by calculated proximity
+    description: 
+    timeString: 2021-02-13T11:05:15.000-05:00
+    commitTimeString: 2021-02-13T11:05:15.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Prefabs\Donut.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Donut.prefab
+      projectPath: Assets\Prefabs\Donut.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Donut.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Donut.prefab.meta
+      projectPath: Assets\Prefabs\Donut.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b389fb3dabd1f54a2dc234759cab990dfaef59e4
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Added water to stress system
+    description: 
+    timeString: 2021-02-13T11:00:58.000-05:00
+    commitTimeString: 2021-02-13T11:00:58.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Prefabs\Water.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Water.prefab
+      projectPath: Assets\Prefabs\Water.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Water.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Water.prefab.meta
+      projectPath: Assets\Prefabs\Water.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level1.unity.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level1.unity.meta
+      projectPath: Assets\Scenes\Level1.unity.meta
+      originalPath: Stressed-Cat\Assets\Scenes\SampleScene.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level2.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\Level2.unity.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\Level2.unity.meta
+      projectPath: Assets\Scenes\Level2.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 282c505a139c9721e34c5ed15a567c66fc116400
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: d
+    description: 
+    timeString: 2021-02-13T10:40:03.000-05:00
+    commitTimeString: 2021-02-13T10:40:03.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets.meta
+      projectPath: Assets\Cat assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets.meta
+      projectPath: Assets\Dog assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 0be8d624be4381f9d7eb1f0a45430653f6314144
+    mergeA: a1f2153c172318e72efac47f7547efbcfe8584cd
+    mergeB: 90a51f175fa75054d8875fb4c6aa33faf81cd181
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Merge remote-tracking branch 'origin/Movement' into Levels
+    description: 
+    timeString: 2021-02-13T10:29:13.000-05:00
+    commitTimeString: 2021-02-13T10:29:13.000-05:00
+    changes: []
+  - commitID: 92ba9c617c23d800d3a9124c72e5ef1d7592cecc
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Player doesn't just fly through platforms anymore
+    description: 
+    timeString: 2021-02-13T10:24:43.000-05:00
+    commitTimeString: 2021-02-13T10:24:43.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat.prefab
+      projectPath: Assets\Prefabs\Cat.prefab
+      originalPath: Stressed-Cat\Assets\Cat.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Cat.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Cat.prefab.meta
+      projectPath: Assets\Prefabs\Cat.prefab.meta
+      originalPath: Stressed-Cat\Assets\Cat.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Dog.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog.prefab
+      projectPath: Assets\Prefabs\Dog.prefab
+      originalPath: Stressed-Cat\Assets\Dog.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Dog.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Dog.prefab.meta
+      projectPath: Assets\Prefabs\Dog.prefab.meta
+      originalPath: Stressed-Cat\Assets\Dog.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Floor.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Floor.prefab
+      projectPath: Assets\Prefabs\Floor.prefab
+      originalPath: Stressed-Cat\Assets\Floor.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Floor.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Floor.prefab.meta
+      projectPath: Assets\Prefabs\Floor.prefab.meta
+      originalPath: Stressed-Cat\Assets\Floor.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Platform.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Platform.prefab
+      projectPath: Assets\Prefabs\Platform.prefab
+      originalPath: Stressed-Cat\Assets\Platform.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Prefabs\Platform.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Prefabs\Platform.prefab.meta
+      projectPath: Assets\Prefabs\Platform.prefab.meta
+      originalPath: Stressed-Cat\Assets\Platform.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat assets.meta
+      projectPath: Assets\Stressed Cat Assets\Cat assets.meta
+      originalPath: Stressed-Cat\Assets\Cat assets.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(sitting).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat assets\Cat-Asset-(sitting).png
+      projectPath: Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(sitting).png
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(sitting).png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(sitting).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat assets\Cat-Asset-(sitting).png.meta
+      projectPath: Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(sitting).png.meta
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(sitting).png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(standing).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat assets\Cat-Asset-(standing).png
+      projectPath: Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(standing).png
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(standing).png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(standing).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat assets\Cat-Asset-(standing).png.meta
+      projectPath: Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(standing).png.meta
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(standing).png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(startled).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat assets\Cat-Asset-(startled).png
+      projectPath: Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(startled).png
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(startled).png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(startled).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat assets\Cat-Asset-(startled).png.meta
+      projectPath: Assets\Stressed Cat Assets\Cat assets\Cat-Asset-(startled).png.meta
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(startled).png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets.meta
+      projectPath: Assets\Stressed Cat Assets\Dog assets.meta
+      originalPath: Stressed-Cat\Assets\Dog assets.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\Brown dog Standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\Brown dog Standing.png
+      projectPath: Assets\Stressed Cat Assets\Dog assets\Brown dog Standing.png
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog Standing.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\Brown dog Standing.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\Brown dog Standing.png.meta
+      projectPath: Assets\Stressed Cat Assets\Dog assets\Brown dog Standing.png.meta
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog Standing.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\Brown dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\Brown dog sitting.png
+      projectPath: Assets\Stressed Cat Assets\Dog assets\Brown dog sitting.png
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog sitting.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\Brown dog sitting.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\Brown dog sitting.png.meta
+      projectPath: Assets\Stressed Cat Assets\Dog assets\Brown dog sitting.png.meta
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog sitting.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\white dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\white dog sitting.png
+      projectPath: Assets\Stressed Cat Assets\Dog assets\white dog sitting.png
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\white dog sitting.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\white dog sitting.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\white dog sitting.png.meta
+      projectPath: Assets\Stressed Cat Assets\Dog assets\white dog sitting.png.meta
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\white dog sitting.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\white dog standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\white dog standing.png
+      projectPath: Assets\Stressed Cat Assets\Dog assets\white dog standing.png
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\white dog standing.png
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Dog assets\white dog standing.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Dog assets\white dog standing.png.meta
+      projectPath: Assets\Stressed Cat Assets\Dog assets\white dog standing.png.meta
+      originalPath: Stressed-Cat\Assets\Stressed Cat Assets\white dog standing.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+  - commitID: a1f2153c172318e72efac47f7547efbcfe8584cd
+    mergeA: 
+    mergeB: 
+    authorName: Shmeigo
+    authorEmail: jlessiohadi@gmail.com
+    commitEmail: jlessiohadi@gmail.com
+    commitName: Shmeigo
+    summary: Added fast falling, platforms, and stopped characters from rolling
+    description: 
+    timeString: 2021-02-13T10:00:35.000-05:00
+    commitTimeString: 2021-02-13T10:00:35.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets.meta
+      projectPath: Assets\Cat assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.prefab
+      projectPath: Assets\Cat.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.prefab.meta
+      projectPath: Assets\Cat.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets.meta
+      projectPath: Assets\Dog assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog.prefab
+      projectPath: Assets\Dog.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog.prefab.meta
+      projectPath: Assets\Dog.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts.meta
+      projectPath: Assets\Donuts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Floor.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Floor.prefab
+      projectPath: Assets\Floor.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Floor.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Floor.prefab.meta
+      projectPath: Assets\Floor.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Platform.prefab
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Platform.prefab
+      projectPath: Assets\Platform.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Platform.prefab.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Platform.prefab.meta
+      projectPath: Assets\Platform.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\InputManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b072d0dfccf038c0701172ec8c974088d355b347
+    mergeA: 
+    mergeB: 
+    authorName: levekyle
+    authorEmail: kleve@andrew.cmu.edu
+    commitEmail: kleve@andrew.cmu.edu
+    commitName: levekyle
+    summary: d
+    description: 
+    timeString: 2021-02-13T09:04:55.000-05:00
+    commitTimeString: 2021-02-13T09:04:55.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Donuts\D O N U T 2.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts\D
+        O N U T 2.png
+      projectPath: Assets\Donuts\D O N U T 2.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts\D O N U T.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts\D
+        O N U T.png
+      projectPath: Assets\Donuts\D O N U T.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 8cd65a31f5ce327a15ab71c5747e107f96142d76
+    mergeA: 1f1b15a1f18e151b10e8da2e1f40644aaabdc9ba
+    mergeB: 2ba3d08ff16c286641020af0021de0662a666ccf
+    authorName: levekyle
+    authorEmail: kleve@andrew.cmu.edu
+    commitEmail: kleve@andrew.cmu.edu
+    commitName: levekyle
+    summary: Merge branch 'master' of https://github.com/jrojasvalvo/LCP
+    description: 
+    timeString: 2021-02-13T09:04:19.000-05:00
+    commitTimeString: 2021-02-13T09:04:19.000-05:00
+    changes: []
+  - commitID: 1f1b15a1f18e151b10e8da2e1f40644aaabdc9ba
+    mergeA: 
+    mergeB: 
+    authorName: levekyle
+    authorEmail: kleve@andrew.cmu.edu
+    commitEmail: kleve@andrew.cmu.edu
+    commitName: levekyle
+    summary: t
+    description: 
+    timeString: 2021-02-13T09:04:13.000-05:00
+    commitTimeString: 2021-02-13T09:04:13.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(sitting).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(sitting).png
+      projectPath: Assets\Cat assets\Cat-Asset-(sitting).png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(standing).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(standing).png
+      projectPath: Assets\Cat assets\Cat-Asset-(standing).png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(startled).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(startled).png
+      projectPath: Assets\Cat assets\Cat-Asset-(startled).png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\Brown dog Standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\Brown dog Standing.png
+      projectPath: Assets\Dog assets\Brown dog Standing.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\Brown dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\Brown dog sitting.png
+      projectPath: Assets\Dog assets\Brown dog sitting.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\white dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\white dog sitting.png
+      projectPath: Assets\Dog assets\white dog sitting.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\white dog standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\white dog standing.png
+      projectPath: Assets\Dog assets\white dog standing.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 90a51f175fa75054d8875fb4c6aa33faf81cd181
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: enemy line of sight
+    description: 
+    timeString: 2021-02-13T01:11:06.000-05:00
+    commitTimeString: 2021-02-13T01:11:06.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\EnemyController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+      projectPath: Assets\EnemyController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 906b2b4eb005ba045e3e613ce471a3857ad6cc7f
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: Enemy movement script, single jump fix, climbing
+    description: 
+    timeString: 2021-02-13T00:43:10.000-05:00
+    commitTimeString: 2021-02-13T00:43:10.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Dog.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog.png
+      projectPath: Assets\Dog.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog.png.meta
+      projectPath: Assets\Dog.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\EnemyController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs
+      projectPath: Assets\EnemyController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\EnemyController.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\EnemyController.cs.meta
+      projectPath: Assets\EnemyController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\ladder.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\ladder.png
+      projectPath: Assets\ladder.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\ladder.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\ladder.png.meta
+      projectPath: Assets\ladder.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 2ba3d08ff16c286641020af0021de0662a666ccf
+    mergeA: 
+    mergeB: 
+    authorName: Ameer-J
+    authorEmail: 78869846+Ameer-J@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: 
+    timeString: 2021-02-13T00:39:09.000-05:00
+    commitTimeString: 2021-02-13T00:39:09.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Donuts\D O N U T 2.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts\D
+        O N U T 2.png
+      projectPath: Assets\Donuts\D O N U T 2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Donuts\D O N U T.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Donuts\D
+        O N U T.png
+      projectPath: Assets\Donuts\D O N U T.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: a05b241c757ede6b22a40395baad5f2ca7fa7945
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: stress level floor fixed + added cat and dog (rough)
+    description: 
+    timeString: 2021-02-13T00:25:49.000-05:00
+    commitTimeString: 2021-02-13T00:25:49.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets.meta
+      projectPath: Assets\Stressed Cat Assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog Standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Brown dog Standing.png
+      projectPath: Assets\Stressed Cat Assets\Brown dog Standing.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog Standing.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Brown dog Standing.png.meta
+      projectPath: Assets\Stressed Cat Assets\Brown dog Standing.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Brown dog sitting.png
+      projectPath: Assets\Stressed Cat Assets\Brown dog sitting.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Brown dog sitting.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Brown dog sitting.png.meta
+      projectPath: Assets\Stressed Cat Assets\Brown dog sitting.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(sitting).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat-Asset-(sitting).png
+      projectPath: Assets\Stressed Cat Assets\Cat-Asset-(sitting).png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(sitting).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat-Asset-(sitting).png.meta
+      projectPath: Assets\Stressed Cat Assets\Cat-Asset-(sitting).png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(standing).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat-Asset-(standing).png
+      projectPath: Assets\Stressed Cat Assets\Cat-Asset-(standing).png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(standing).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat-Asset-(standing).png.meta
+      projectPath: Assets\Stressed Cat Assets\Cat-Asset-(standing).png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(startled).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat-Asset-(startled).png
+      projectPath: Assets\Stressed Cat Assets\Cat-Asset-(startled).png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\Cat-Asset-(startled).png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\Cat-Asset-(startled).png.meta
+      projectPath: Assets\Stressed Cat Assets\Cat-Asset-(startled).png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\white dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\white dog sitting.png
+      projectPath: Assets\Stressed Cat Assets\white dog sitting.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\white dog sitting.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\white dog sitting.png.meta
+      projectPath: Assets\Stressed Cat Assets\white dog sitting.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\white dog standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\white dog standing.png
+      projectPath: Assets\Stressed Cat Assets\white dog standing.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stressed Cat Assets\white dog standing.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stressed
+        Cat Assets\white dog standing.png.meta
+      projectPath: Assets\Stressed Cat Assets\white dog standing.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 5bf364037c3b920494e17e430a15ffd34801a98b
+    mergeA: 
+    mergeB: 
+    authorName: Ameer-J
+    authorEmail: 78869846+Ameer-J@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: 
+    timeString: 2021-02-13T00:10:21.000-05:00
+    commitTimeString: 2021-02-13T00:10:21.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(sitting).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(sitting).png
+      projectPath: Assets\Cat assets\Cat-Asset-(sitting).png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(standing).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(standing).png
+      projectPath: Assets\Cat assets\Cat-Asset-(standing).png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat assets\Cat-Asset-(startled).png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat
+        assets\Cat-Asset-(startled).png
+      projectPath: Assets\Cat assets\Cat-Asset-(startled).png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\Brown dog Standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\Brown dog Standing.png
+      projectPath: Assets\Dog assets\Brown dog Standing.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\Brown dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\Brown dog sitting.png
+      projectPath: Assets\Dog assets\Brown dog sitting.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\white dog sitting.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\white dog sitting.png
+      projectPath: Assets\Dog assets\white dog sitting.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Dog assets\white dog standing.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Dog
+        assets\white dog standing.png
+      projectPath: Assets\Dog assets\white dog standing.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 63c98966fb05d6d06c2ccfcddefd0429a09bc749
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Added Stress Bar Visualization
+    description: 
+    timeString: 2021-02-12T23:56:49.000-05:00
+    commitTimeString: 2021-02-12T23:56:49.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 658b346bbe87a973e860ec839564679e289cffaa
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Movement while meditating fixed
+    description: 
+    timeString: 2021-02-12T23:42:34.000-05:00
+    commitTimeString: 2021-02-12T23:42:34.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 0b1b2dccb6560eb5fdb5a163a28b4cede202f1bc
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Meditation
+    description: 
+    timeString: 2021-02-12T23:28:27.000-05:00
+    commitTimeString: 2021-02-12T23:28:27.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 331fde86944c5a8a5cb9e40f5cbb433aaa095ff1
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Donut Collection
+    description: 
+    timeString: 2021-02-12T23:03:28.000-05:00
+    commitTimeString: 2021-02-12T23:03:28.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Movement.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Movement.cs
+      projectPath: Assets\Movement.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs.meta
+      projectPath: Assets\PlayerController.cs.meta
+      originalPath: Stressed-Cat\Assets\Movement.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b44dacfa222be8587da4fbd2214ec24159e6c267
+    mergeA: 
+    mergeB: 
+    authorName: annehe9
+    authorEmail: afhe@andrew.cmu.edu
+    commitEmail: afhe@andrew.cmu.edu
+    commitName: annehe9
+    summary: First commit to movement branch
+    description: 
+    timeString: 2021-02-12T22:55:37.000-05:00
+    commitTimeString: 2021-02-12T22:55:37.000-05:00
+    changes:
+    - path: Packages\manifest.json
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Packages\manifest.json
+      projectPath: ..\Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Packages\packages-lock.json
+      projectPath: ..\Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\AudioManager.asset
+      projectPath: ..\ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\ClusterInputManager.asset
+      projectPath: ..\ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\DynamicsManager.asset
+      projectPath: ..\ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ..\ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\EditorSettings.asset
+      projectPath: ..\ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\GraphicsSettings.asset
+      projectPath: ..\ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\InputManager.asset
+      projectPath: ..\ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\NavMeshAreas.asset
+      projectPath: ..\ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ..\ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\Physics2DSettings.asset
+      projectPath: ..\ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\PresetManager.asset
+      projectPath: ..\ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\ProjectSettings.asset
+      projectPath: ..\ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\ProjectVersion.txt
+      projectPath: ..\ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\QualitySettings.asset
+      projectPath: ..\ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\TagManager.asset
+      projectPath: ..\ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\TimeManager.asset
+      projectPath: ..\ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ..\ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\VFXManager.asset
+      projectPath: ..\ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\ProjectSettings\XRSettings.asset
+      projectPath: ..\ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.png
+      projectPath: Assets\Cat.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Cat.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Cat.png.meta
+      projectPath: Assets\Cat.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Floor.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Floor.png
+      projectPath: Assets\Floor.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Floor.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Floor.png.meta
+      projectPath: Assets\Floor.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs
+      projectPath: Assets\PlayerController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\PlayerController.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\PlayerController.cs.meta
+      projectPath: Assets\PlayerController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 102be64a683989416b47a08807d95eaa077f42c8
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Stress Proximity To Enemies
+    description: 
+    timeString: 2021-02-12T22:31:12.000-05:00
+    commitTimeString: 2021-02-12T22:31:12.000-05:00
+    changes:
+    - path: Stressed-Cat\Assets\Disk_pack1.svg.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Disk_pack1.svg.png
+      projectPath: Assets\Disk_pack1.svg.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Disk_pack1.svg.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Disk_pack1.svg.png.meta
+      projectPath: Assets\Disk_pack1.svg.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Movement.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Movement.cs
+      projectPath: Assets\Movement.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Movement.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Movement.cs.meta
+      projectPath: Assets\Movement.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs
+      projectPath: Assets\Stress_System.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Stress_System.cs.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Stress_System.cs.meta
+      projectPath: Assets\Stress_System.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\brown_0_0.jpg
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\brown_0_0.jpg
+      projectPath: Assets\brown_0_0.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\brown_0_0.jpg.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\brown_0_0.jpg.meta
+      projectPath: Assets\brown_0_0.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\orange-circle-background.png
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\orange-circle-background.png
+      projectPath: Assets\orange-circle-background.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\orange-circle-background.png.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\orange-circle-background.png.meta
+      projectPath: Assets\orange-circle-background.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: e7c9a480384de56170c303a1d825fa129a86e9b5
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Unity Project
+    description: 
+    timeString: 2021-02-12T21:33:39.000-05:00
+    commitTimeString: 2021-02-12T21:33:39.000-05:00
+    changes:
+    - path: Assets\.gitignore
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Assets\.gitignore
+      projectPath: ..\Assets\.gitignore
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Stressed-Cat\.vscode\settings.json
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Packages\manifest.json
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\Packages\packages-lock.json
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\InputManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Stressed-Cat\ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Stressed-Cat\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: c00120f3c5c88d5989fdfe8547318af4dff5a5b7
+    mergeA: 
+    mergeB: 
+    authorName: jrojasvalvo
+    authorEmail: jrojasva@andrew.cmu.edu
+    commitEmail: jrojasva@andrew.cmu.edu
+    commitName: jrojasvalvo
+    summary: Initial commit
+    description: 
+    timeString: 2021-02-12T20:57:05.000-05:00
+    commitTimeString: 2021-02-12T20:57:05.000-05:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\.gitattributes
+      projectPath: ..\.gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Users\levek\OneDrive\Documents\GitHub\LCP\Assets\.gitignore
+      projectPath: ..\Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

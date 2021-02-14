@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-02-13T19:31:35.840-05:00
+  initializedAtString: 2021-02-13T19:01:38.008-05:00
+  localBranches:
+  - name: Anne-Testing
+    tracking: origin/Anne-Testing
+  - name: Julian-Testing
+    tracking: origin/Julian-Testing
+  - name: Kyle-Test
+    tracking: origin/Kyle-Test
+  - name: Levels
+    tracking: origin/Levels
+  - name: master
+    tracking: origin/master
+  - name: Movement
+    tracking: origin/Movement
+  - name: Sound
+    tracking: origin/Sound
+  - name: Stress-System
+    tracking: origin/Stress-System
+  - name: TestBranch
+    tracking: origin/TestBranch
+  remoteBranches:
+  - name: origin/Anne-Testing
+    tracking: '[None]'
+  - name: origin/Julian-Testing
+    tracking: '[None]'
+  - name: origin/Kyle-Test
+    tracking: '[None]'
+  - name: origin/Levels
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/Movement
+    tracking: '[None]'
+  - name: origin/Sound
+    tracking: '[None]'
+  - name: origin/Stress-System
+    tracking: '[None]'
+  - name: origin/TestBranch
+    tracking: '[None]'
+  - name: origin/TitleScreen
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/jrojasvalvo/LCP.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - Anne-Testing
+    - Julian-Testing
+    - Kyle-Test
+    - Levels
+    - master
+    - Movement
+    - Sound
+    - Stress-System
+    - TestBranch
+    values:
+    - name: Anne-Testing
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Anne-Testing
+    - name: Julian-Testing
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Julian-Testing
+    - name: Kyle-Test
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Kyle-Test
+    - name: Levels
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Levels
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: master
+    - name: Movement
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Movement
+    - name: Sound
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Sound
+    - name: Stress-System
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: Stress-System
+    - name: TestBranch
+      remote:
+        name: origin
+        url: https://github.com/jrojasvalvo/LCP.git
+      trackingBranch: TestBranch
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - Anne-Testing
+      - Julian-Testing
+      - Kyle-Test
+      - Levels
+      - master
+      - Movement
+      - Sound
+      - Stress-System
+      - TestBranch
+      - TitleScreen
+    subKeyValues:
+    - Values:
+      - name: Anne-Testing
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: Julian-Testing
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: Kyle-Test
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: Levels
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: Movement
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: Sound
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: Stress-System
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: TestBranch
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+      - name: TitleScreen
+        remote:
+          name: origin
+          url: https://github.com/jrojasvalvo/LCP.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/jrojasvalvo/LCP.git
