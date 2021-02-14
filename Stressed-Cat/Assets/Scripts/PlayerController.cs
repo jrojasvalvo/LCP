@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     public bool canJump = true;
 
     public Stress_System stress;
-    
+
     void Start()
     {
         stress = GetComponent<Stress_System>();
@@ -226,7 +226,6 @@ public class PlayerController : MonoBehaviour
     }
 
      string next;
-
     public void LoadNext() {
         if (Time.timeScale == 0) {
             Time.timeScale = 1;
