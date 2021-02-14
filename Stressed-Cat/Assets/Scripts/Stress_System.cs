@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Stress_System : MonoBehaviour
 {
     // Start is called before the first frame update
+    private Animator anim;
     public float max_stress = 100f;
     public float stress_level = 0f;
     private bool startled;
@@ -40,6 +41,7 @@ public class Stress_System : MonoBehaviour
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         meditationBar.fillAmount = 0;
         startled = false;
         all_enemies = enemies.GetComponentsInChildren<Transform>();
@@ -56,8 +58,8 @@ public class Stress_System : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
-
+    {
+        anim.SetFloat("stress", stress_level/max_stress);
         stress_bar.fillAmount = 1 - stress_level / max_stress;
         stress_bar.color = new Color32((byte)(stress_level),
                                        (byte)(100 - stress_level),0,255);
@@ -131,9 +133,11 @@ public class Stress_System : MonoBehaviour
         if (Input.GetKeyDown("e"))
         {
             meditationSound.Play();
+            anim.SetBool("meditate", true);
         } else if (Input.GetKeyUp("e"))
         {
             meditationSound.Stop();
+            anim.SetBool("meditate", false);
         }
     }
 
