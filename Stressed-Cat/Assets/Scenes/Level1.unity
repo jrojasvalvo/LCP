@@ -379,7 +379,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526353104}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 16c2fe6232d87d14a99cbbe0e2d53dd6, type: 3}
@@ -475,7 +475,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526353104}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5cf936e04e9fb6242a4093c2ca75bccb, type: 3}
@@ -1491,8 +1491,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
-        type: 3}]
+    m_RemovedComponents:
+    - {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d0e7768eb60df0a4cb89ef280c99667b, type: 3}
 --- !u!1001 &7182553128179460655
 PrefabInstance:
@@ -1585,8 +1585,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 1898270816, guid: eaeda38a47de7f04e800fea8b273a961,
-        type: 3}]
+    m_RemovedComponents:
+    - {fileID: 1898270816, guid: eaeda38a47de7f04e800fea8b273a961, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eaeda38a47de7f04e800fea8b273a961, type: 3}
 --- !u!1001 &7263886008234642202
 PrefabInstance:
@@ -1670,6 +1670,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 864769830196048983, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440466852700209798, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444851688298143448, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930189149728821075, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114862388289070072, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728944, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: enemies
@@ -1750,10 +1775,20 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 519420028}
+    - target: {fileID: 7741296320950728947, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: stress
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728949, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_Name
       value: Cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410782738663247247, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489189019140972545, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
