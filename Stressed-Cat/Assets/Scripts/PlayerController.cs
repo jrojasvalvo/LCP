@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    public GameObject camera;
+    public GameObject cam;
+    public GameObject gameManager;
 
     //Movement
     public float speed;
@@ -20,9 +23,9 @@ public class PlayerController : MonoBehaviour
     private bool climb;
     public bool canMove = true;
 
-    public float initial_x = -8f;
-    public float initial_y = -3.5f;
-
+    // public float initial_x = -8f;
+    // public float initial_y = -3.5f;
+    Vector3 initialPosition;
     public bool dead;
     public bool canJump = true;
     
@@ -33,8 +36,9 @@ public class PlayerController : MonoBehaviour
         grounded = true;
         climb = false;
         facingRight = true;
-        transform.position = new Vector3(initial_x, initial_y, 0);
+        //transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
+        initialPosition = transform.position;
     }
     IEnumerator jumpAnim()
     {
@@ -102,18 +106,26 @@ public class PlayerController : MonoBehaviour
         if (Time.timeScale == 0) canMove = false;
 
         if(dead) {
-            transform.position = new Vector3(initial_x, initial_y, 0);
-            grounded = true;
-            climb = false;
-            this.gameObject.GetComponent<Stress_System>().stress_level = 0;
-            dead = false;
-            canMove = true;
-            this.gameObject.GetComponent<Stress_System>().meditating = false;
-            this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
-            this.gameObject.GetComponent<Stress_System>().canMeditate = true;
+            //transform.position = new Vector3(initial_x, initial_y, 0);
+            
+            // transform.position = initialPosition;
+            // grounded = true;
+            // climb = false;
+            // this.gameObject.GetComponent<Stress_System>().stress_level = 0;
+            // dead = false;
+            // canMove = true;
+            // this.gameObject.GetComponent<Stress_System>().meditating = false;
+            // this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
+            // this.gameObject.GetComponent<Stress_System>().canMeditate = true;
+            // Time.timeScale = 1;
                 
-            camera.GetComponent<ScreenShake>().shake();
+            // camera.GetComponent<ScreenShake>().shake();
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+            //Doing this because if we do the stuff above, it doesn't respawn the donuts
+            gameManager.GetComponent<gameManager>().callRestart();
         }
+        LoadNext();
     }
 
     void FixedUpdate()
@@ -191,5 +203,24 @@ public class PlayerController : MonoBehaviour
         Vector2 scale = rb.transform.localScale;
         scale.x *= -1;
         rb.transform.localScale = scale;
+    }
+
+    //Go to next level
+    string next;
+
+    public void LoadNext() {
+        if (Time.timeScale == 0) {
+            Time.timeScale = 1;
+            string currScene = SceneManager.GetActiveScene().name.Substring(5);
+            if (currScene == "") {
+                next = "Main Menu";
+            } else {
+                int currSceneNum = Int32.Parse(currScene);
+                string nextSceneNum = (currSceneNum + 1).ToString();
+
+                next = "Level" + nextSceneNum;
+            }
+            SceneManager.LoadScene(next);
+        }
     }
 }
