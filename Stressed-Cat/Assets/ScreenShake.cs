@@ -8,11 +8,15 @@ public class ScreenShake : MonoBehaviour
     public float magnitude = 0.2f;
     public float dampingSpeed = 1.0f;
     private Vector3 initialPosition;
-
+    public GameObject player;
+    private Vector3 player_init;
 
     private void OnEnable()
     {
         initialPosition = transform.localPosition;
+        player = GameObject.FindGameObjectWithTag("Player");
+        player_init = player.transform.position;
+
     }
 
     // Update is called once per frame
@@ -30,7 +34,14 @@ public class ScreenShake : MonoBehaviour
             transform.localPosition = initialPosition;
         }
     }
-    
+
+    void LateUpdate()
+    {
+        Vector3 pos = player.transform.position;  // Get new player position
+        Camera.main.transform.localPosition = initialPosition + pos - player_init; //Use offset
+
+    }
+
     public void shake()
     {
         duration = 0.2f;

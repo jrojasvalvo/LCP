@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    public GameObject camera;
+    public GameObject cam;
 
     //Movement
     public float speed;
@@ -20,8 +20,10 @@ public class PlayerController : MonoBehaviour
     private bool climb;
     public bool canMove = true;
 
-    public float initial_x = -8f;
-    public float initial_y = -3.5f;
+    public float initial_x = -7.13f;
+    public float initial_y = -2.5f;
+
+    public Vector3 camera_init;
 
     public bool dead;
     public bool canJump = true;
@@ -35,6 +37,8 @@ public class PlayerController : MonoBehaviour
         facingRight = true;
         transform.position = new Vector3(initial_x, initial_y, 0);
         dead = false;
+        cam = GameObject.Find("Main Camera");
+        camera_init = cam.transform.position;
     }
     IEnumerator jumpAnim()
     {
@@ -111,8 +115,9 @@ public class PlayerController : MonoBehaviour
             this.gameObject.GetComponent<Stress_System>().meditating = false;
             this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
             this.gameObject.GetComponent<Stress_System>().canMeditate = true;
-                
-            camera.GetComponent<ScreenShake>().shake();
+
+            cam.transform.position = camera_init;
+            //cam.GetComponent<ScreenShake>().shake();
         }
     }
 
@@ -191,5 +196,9 @@ public class PlayerController : MonoBehaviour
         Vector2 scale = rb.transform.localScale;
         scale.x *= -1;
         rb.transform.localScale = scale;
+        //do not flip camera
+        Vector2 cscale = cam.transform.localScale;
+        cscale.x *= -1;
+        //cam.transform.localScale = cscale; 
     }
 }
