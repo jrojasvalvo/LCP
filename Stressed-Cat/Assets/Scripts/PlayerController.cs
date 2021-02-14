@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
         stress = GetComponent<Stress_System>();
         rb = this.gameObject.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        grounded = true;
+        grounded = false;
         climb = false;
         facingRight = true;
         transform.position = new Vector3(initial_x, initial_y, 0);
@@ -133,7 +133,7 @@ public class PlayerController : MonoBehaviour
 
             cam.transform.position = camera_init;*/
 
-             gameManager.GetComponent<gameManager>().callRestart();
+            gameManager.GetComponent<gameManager>().callRestart();
         }
         LoadNext();
     }
