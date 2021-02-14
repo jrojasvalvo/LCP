@@ -193,7 +193,6 @@ public class PlayerController : MonoBehaviour
         }
 
         if (col.gameObject.tag == "End" ) {
-
         }
     }
     void OnTriggerExit2D(Collider2D col)
