@@ -10,6 +10,7 @@ public class ScreenShake : MonoBehaviour
     private Vector3 initialPosition;
     public GameObject player;
     private Vector3 player_init;
+    public Vector3 offset = new Vector3(-5, -2, 0);
 
     private void OnEnable()
     {
@@ -38,8 +39,13 @@ public class ScreenShake : MonoBehaviour
     void LateUpdate()
     {
         Vector3 pos = player.transform.position;  // Get new player position
-        Camera.main.transform.localPosition = initialPosition + pos - player_init; //Use offset
+        //Camera.main.transform.localPosition = initialPosition + pos - player_init; //Use offset
+        
+        //makes camera offset consistent bc it doesn't rely on starting position
+        //Camera.main.transform.localPosition = pos - offset; //Use offset
 
+        //centered
+        Camera.main.transform.position = new Vector3(pos.x, pos.y, -5);
     }
 
     public void shake()
