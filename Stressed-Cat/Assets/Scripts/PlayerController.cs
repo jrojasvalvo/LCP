@@ -213,7 +213,7 @@ public class PlayerController : MonoBehaviour
     public void LoadNext() {
         if (Time.timeScale == 0) {
             Time.timeScale = 1;
-            string currScene = SceneManager.GetActiveScene().name.Substring(5);
+            /*string currScene = SceneManager.GetActiveScene().name.Substring(5);
             if (currScene == "") {
                 next = "Main Menu";
             } else {
@@ -222,7 +222,8 @@ public class PlayerController : MonoBehaviour
 
                 next = "Level" + nextSceneNum;
             }
-            SceneManager.LoadScene(next);
+            SceneManager.LoadScene(next);*/
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
