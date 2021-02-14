@@ -105,13 +105,15 @@ public class Stress_System : MonoBehaviour
         }
         //Check for proximity to enemies to increase stress level:
         for(int i = 0; i < all_enemies.Length; i++) {
-            enemy_x = all_enemies[i].position.x;
-            enemy_y = all_enemies[i].position.y;
-            x_diff = Math.Abs(player_x - enemy_x);
-            y_diff = Math.Abs(player_y - enemy_y);
-            dist = (float)(Math.Sqrt(x_diff * x_diff + y_diff * y_diff));
-            if(dist <= distance_from_hostile) {
-                stress_level += (distance_from_hostile - dist) * enemy_stress_rate;
+            if(i != 0) {
+                enemy_x = all_enemies[i].position.x;
+                enemy_y = all_enemies[i].position.y;
+                x_diff = Math.Abs(player_x - enemy_x);
+                y_diff = Math.Abs(player_y - enemy_y);
+                dist = (float)(Math.Sqrt(x_diff * x_diff + y_diff * y_diff));
+                if(dist <= distance_from_hostile) {
+                    stress_level += (distance_from_hostile - dist) * enemy_stress_rate;
+                }
             }
         }
 
