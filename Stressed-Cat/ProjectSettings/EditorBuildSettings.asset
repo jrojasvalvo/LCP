@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AnneLevel1.unity
     guid: 6b7eff1ba9df79d4297d7e839e063a59
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 76d3e37410901aa4c87bc835b0d5eb5a
   m_configObjects: {}
