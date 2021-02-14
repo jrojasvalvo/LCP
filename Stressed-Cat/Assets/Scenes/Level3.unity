@@ -533,9 +533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27596473d08fa164bb62abafa9c1aac6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundMusic: {fileID: 0}
-  jumpSound: {fileID: 0}
-  climbSound: {fileID: 0}
 --- !u!4 &1083947914
 Transform:
   m_ObjectHideFlags: 0
@@ -580,7 +577,7 @@ PrefabInstance:
     - target: {fileID: 8412102637803181172, guid: 2d9c6eabf1170be48b6f6837cc49e174,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.2818265
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8412102637803181172, guid: 2d9c6eabf1170be48b6f6837cc49e174,
         type: 3}
