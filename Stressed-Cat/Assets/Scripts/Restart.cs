@@ -7,6 +7,7 @@ public class Restart : MonoBehaviour
 {
     public GameObject cam;
     public GameObject player;
+
     public IEnumerator restart() {
         cam.GetComponent<ScreenShake>().shake();
         player.SetActive(false);
