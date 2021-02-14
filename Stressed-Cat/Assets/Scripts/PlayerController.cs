@@ -47,6 +47,8 @@ public class PlayerController : MonoBehaviour
         cam = GameObject.Find("Main Camera");
         camera_init = cam.transform.position;
         allObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
+        initial_x = transform.position.x;
+        initial_y = transform.position.y;
     }
     IEnumerator jumpAnim()
     {
