@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject cam;
-    public GameObject gameManager;
 
     //Movement
     public float speed;
@@ -135,20 +134,6 @@ public class PlayerController : MonoBehaviour
             {
                 allObjects[i].SetActive(true);
             }
-            //cam.GetComponent<ScreenShake>().shake();
-            // transform.position = new Vector3(initial_x, initial_y, 0);
-            // grounded = true;
-            // climb = false;
-            // this.gameObject.GetComponent<Stress_System>().stress_level = 0;
-            // dead = false;
-            // canMove = true;
-            // this.gameObject.GetComponent<Stress_System>().meditating = false;
-            // this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
-            // this.gameObject.GetComponent<Stress_System>().canMeditate = true;
-
-            // cam.transform.position = camera_init;
-            // //cam.GetComponent<ScreenShake>().shake();
-            gameManager.GetComponent<gameManager>().callRestart();
         }
         LoadNext();
     }
