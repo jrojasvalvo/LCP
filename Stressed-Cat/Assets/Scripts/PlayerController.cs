@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
 
         if(dead) {
             transform.position = new Vector3(initial_x, initial_y, 0);
-            grounded = true;
+            grounded = false;
             climb = false;
             this.gameObject.GetComponent<Stress_System>().stress_level = 0;
             dead = false;
@@ -159,8 +159,6 @@ public class PlayerController : MonoBehaviour
            grounded = true;
            anim.SetTrigger("landing");
         }
-        
-        if (col.gameObject.tag == "Ladder") grounded = true;
 
         if (col.gameObject.tag == "Ladder") 
         {
