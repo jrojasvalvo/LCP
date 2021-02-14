@@ -24,7 +24,7 @@ public class Play : MonoBehaviour
     void OnMouseDown() {
         buttonSound.Stop();
         buttonSound.Play();
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Tutorial0");
     }
 
     void OnMouseEnter() {

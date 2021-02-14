@@ -2259,11 +2259,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1898270816, guid: eaeda38a47de7f04e800fea8b273a961, type: 3}
       propertyPath: leftBoundary
-      value: -24
+      value: -23
       objectReference: {fileID: 0}
     - target: {fileID: 1898270816, guid: eaeda38a47de7f04e800fea8b273a961, type: 3}
       propertyPath: rightBoundary
-      value: -23
+      value: -22
       objectReference: {fileID: 0}
     - target: {fileID: 7282041321441414565, guid: eaeda38a47de7f04e800fea8b273a961,
         type: 3}
@@ -2568,7 +2568,7 @@ PrefabInstance:
     - target: {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
       propertyPath: leftBoundary
-      value: -25
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
         type: 3}
