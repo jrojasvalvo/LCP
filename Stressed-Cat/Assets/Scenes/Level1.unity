@@ -1491,8 +1491,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b,
-        type: 3}]
+    m_RemovedComponents:
+    - {fileID: 5090806840155923670, guid: d0e7768eb60df0a4cb89ef280c99667b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d0e7768eb60df0a4cb89ef280c99667b, type: 3}
 --- !u!1001 &7182553128179460655
 PrefabInstance:
@@ -1585,8 +1585,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 1898270816, guid: eaeda38a47de7f04e800fea8b273a961,
-        type: 3}]
+    m_RemovedComponents:
+    - {fileID: 1898270816, guid: eaeda38a47de7f04e800fea8b273a961, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eaeda38a47de7f04e800fea8b273a961, type: 3}
 --- !u!1001 &7263886008234642202
 PrefabInstance:
@@ -1772,6 +1772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7741296320950728947, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 519420028}
+    - target: {fileID: 7741296320950728947, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
       propertyPath: camera
       value: 
       objectReference: {fileID: 519420028}
@@ -1780,6 +1785,12 @@ PrefabInstance:
       propertyPath: stress
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7741296320950728947, guid: 652ec710bd6cdf54582abda63b4b561e,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 8369618971521357930, guid: e801b68e330baa74bb7f0a0aff463f60,
+        type: 3}
     - target: {fileID: 7741296320950728949, guid: 652ec710bd6cdf54582abda63b4b561e,
         type: 3}
       propertyPath: m_Name
