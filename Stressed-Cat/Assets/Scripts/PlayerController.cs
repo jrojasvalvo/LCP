@@ -151,7 +151,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.ResetTrigger("landing");
         }
-        if (transform.position.y < -8.f)
+        if (transform.position.y < -8)
         {
             dead = true;
         }
