@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
     public GameObject cam;
+    public GameObject gameManager;
 
     //Movement
     public float speed;
@@ -133,6 +136,19 @@ public class PlayerController : MonoBehaviour
                 allObjects[i].SetActive(true);
             }
             //cam.GetComponent<ScreenShake>().shake();
+            // transform.position = new Vector3(initial_x, initial_y, 0);
+            // grounded = true;
+            // climb = false;
+            // this.gameObject.GetComponent<Stress_System>().stress_level = 0;
+            // dead = false;
+            // canMove = true;
+            // this.gameObject.GetComponent<Stress_System>().meditating = false;
+            // this.gameObject.GetComponent<Stress_System>().meditationBar.fillAmount = 0;
+            // this.gameObject.GetComponent<Stress_System>().canMeditate = true;
+
+            // cam.transform.position = camera_init;
+            // //cam.GetComponent<ScreenShake>().shake();
+            gameManager.GetComponent<gameManager>().callRestart();
         }
         LoadNext();
     }
@@ -223,5 +239,23 @@ public class PlayerController : MonoBehaviour
         Vector2 cscale = cam.transform.localScale;
         cscale.x *= -1;
         //cam.transform.localScale = cscale; 
+    }
+
+     string next;
+
+    public void LoadNext() {
+        if (Time.timeScale == 0) {
+            Time.timeScale = 1;
+            string currScene = SceneManager.GetActiveScene().name.Substring(5);
+            if (currScene == "") {
+                next = "Main Menu";
+            } else {
+                int currSceneNum = Int32.Parse(currScene);
+                string nextSceneNum = (currSceneNum + 1).ToString();
+
+                next = "Level" + nextSceneNum;
+            }
+            SceneManager.LoadScene(next);
+        }
     }
 }
