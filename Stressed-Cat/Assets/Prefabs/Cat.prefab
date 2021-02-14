@@ -148,14 +148,14 @@ MonoBehaviour:
   meditating: 0
   enemies: {fileID: 0}
   stress_bar: {fileID: 0}
-  distance_from_hostile: 5
+  distance_from_hostile: 4
   donut_stress_amt: 20
   donut_pickup_distance: 0.6
-  meditation_time: 10
+  meditation_time: 3
   canMeditate: 1
-  enemy_stress_rate: 0.01
+  enemy_stress_rate: 0.05
   inWater: 0
-  water_stress_amt: 0.1
+  water_stress_amt: 0.2
   timeSlowRate: 0.002
   meditationBar: {fileID: 0}
 --- !u!114 &7741296320950728947
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   speed: 4
-  jump: 6
+  jump: 8
   fastFallSpeed: 0.2
   canMove: 1
   initial_x: -8
