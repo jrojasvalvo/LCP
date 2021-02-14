@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public bool canJump = true;
 
     public Stress_System stress;
+
+    public GameObject button;
     
     void Start()
     {
@@ -135,9 +137,10 @@ public class PlayerController : MonoBehaviour
             for(int i = 0; i < allObjects.Length; i++)
             {
                 allObjects[i].SetActive(true);
+                button.SetActive(false);
             }
         }
-        LoadNext();
+     //   LoadNext();
     }
 
     void FixedUpdate()
@@ -151,7 +154,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.ResetTrigger("landing");
         }
-        if (transform.position.y < -8.f)
+        if (transform.position.y < -8f)
         {
             dead = true;
         }
@@ -182,6 +185,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (col.gameObject.tag == "End" ) {
+            button.SetActive(true);
         }
     }
     void OnTriggerExit2D(Collider2D col)

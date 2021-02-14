@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Play : MonoBehaviour
 {
-     private AudioSource buttonSound;
-
-    public Sound_Manager SoundManager;
+    private AudioSource buttonSound;
 
     // Start is called before the first frame update
     void Start()

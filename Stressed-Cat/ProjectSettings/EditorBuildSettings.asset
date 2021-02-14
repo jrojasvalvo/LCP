@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JulianLevel1.unity
     guid: 2ee899bf9d62eb14fb0fda2f6492d75e
+  - enabled: 1
+    path: Assets/Scenes/JulianLevel2.unity
+    guid: 77e947fe7d0e65c4f8f1b72b6f3da24a
   m_configObjects: {}
